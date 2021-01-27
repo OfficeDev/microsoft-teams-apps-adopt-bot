@@ -1,14 +1,16 @@
 # AdoptBot
 
-Adoption Bot user care Chatbot built with Power Virtual Agent for Teams
-> make sure to update the content to build a great experience for community-building.
+Adopt Bot is a user care Chatbot built with Power Virtual Agent for Teams.
 
-As the maintainer of this project, please make a few updates:
+Adoption Bot answers common questions about Office 365 and Teams.  If users need additional help, Adoption Bot can connect them to experts or open service tickets:
+-Self-help facility to drive adoption at scale - use M365 drive adoption of M365
+-Adoption Bot can be branded.  E.g. AskO365, AskMyCompanyIT
+-No code Bots have quick time to value and net quick win for M365 project team
+-Power Virtual Agent Bots for Teams work with Enterprise customer seeded licensing 
+-Solidifies and strengthens your champions network 
+- Drive down support costs with fewer service desk tickets*
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+* Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
 ## Contributing
 
