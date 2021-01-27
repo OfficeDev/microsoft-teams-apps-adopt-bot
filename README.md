@@ -12,6 +12,14 @@ Adoption Bot answers common questions about Office 365 and Teams.  If users ne
 
 * Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
+## Deployment Guide
+Sign into to powerva.microsoft.com 
+
+1. Click on settings (Gear icon upper right) | general | Export Import bot 
+2. Go to Power Apps Solution 
+3. Import Bot using Power Apps Solutions | Import -Browse and select Adoptbot PVA Zip
+4. For posting adpative cards in Ask an expert and Subbit Feedback, Modify Team name and channel for both Flows in End of Conversation Topic: AdoptBot PVA AskExpert and Adoptbot PVA Submit feedback
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
