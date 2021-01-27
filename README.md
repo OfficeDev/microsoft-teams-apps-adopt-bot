@@ -19,11 +19,11 @@ Benefits:
 
 You can skip this step if you already have a Dataverse for Teams environment for the team that will be managing the AdoptBot. 
 
-1.Search for Power Virtual Agents Teams app in Microsoft Teams app store.
+1. Search for Power Virtual Agents Teams app in Microsoft Teams app store.
 
 ![image](https://user-images.githubusercontent.com/54556057/106006977-cd859c80-6083-11eb-94ff-dd754dcfadbf.png)
 
-2.  Add the app in Microsoft Teams and will land you in the homepage.  Select Start now. 
+2. Add the app in Microsoft Teams and will land you in the homepage.  Select Start now. 
 ![image](https://user-images.githubusercontent.com/54556057/106007208-0de51a80-6084-11eb-9067-d4ef939d40fc.png)
 
 3. Select the team that will be managing the adoption bot. 
