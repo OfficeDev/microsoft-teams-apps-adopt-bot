@@ -19,6 +19,7 @@ You can skip this step if you already have a Dataverse for Teams environment for
 
 1. Search for Power Virtual Agents Teams app in Microsoft Teams app store. 
 Graphical user interface, application, Teams
+![image](https://user-images.githubusercontent.com/54556057/106006977-cd859c80-6083-11eb-94ff-dd754dcfadbf.png)
 
 Description automatically generated
 
