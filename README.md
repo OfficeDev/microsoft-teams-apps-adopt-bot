@@ -1,6 +1,6 @@
-# Project
+# AdoptBot
 
-> This repo has been populated by an initial template to help get you started. Please
+Adoption Bot user care Chatbot built with Power Virtual Agent for Teams
 > make sure to update the content to build a great experience for community-building.
 
 As the maintainer of this project, please make a few updates:
