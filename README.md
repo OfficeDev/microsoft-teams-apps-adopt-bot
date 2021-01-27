@@ -53,7 +53,7 @@ Please follow the instruction in the previous section if you do not have a Datav
 
 ![image](https://user-images.githubusercontent.com/54556057/106007675-8c41bc80-6084-11eb-93d8-a2867815ff6d.png)
  
-4. Read the summary page and select Next again.  You will be asked to provide Connection for the solution.  You can select an existing connection or create a new one by following the instruction of the menu.  Skip to step 7 if you don’t need to create a new connection. 
+4. Read the summary page and select Next again.  You will be asked to provide Connection for the solution.  You can select an existing connection or create a new one by following the instruction of the menu.  Skip to step 7 if you don’t need to create a new connection. *Note: Consider using a service account for the connections as notifcation cards originate from this account.  The service account will need a O365 mailbox.
 
 ![image](https://user-images.githubusercontent.com/54556057/106007726-9a8fd880-6084-11eb-9068-be9e8204ac82.png)
 
