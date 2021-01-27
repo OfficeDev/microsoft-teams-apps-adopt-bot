@@ -21,127 +21,86 @@ You can skip this step if you already have a Dataverse for Teams environment for
 Graphical user interface, application, Teams
 ![image](https://user-images.githubusercontent.com/54556057/106006977-cd859c80-6083-11eb-94ff-dd754dcfadbf.png)
 
-Description automatically generated
+2. Add the app in Microsoft Teams and will land you in the homepage.  Select Start now. 
+![image](https://user-images.githubusercontent.com/54556057/106007208-0de51a80-6084-11eb-9067-d4ef939d40fc.png)
 
-Graphical user interface, application, Teams
-
-Description automatically generated 
-
-Add the app in Microsoft Teams and will land you in the homepage.  Select Start now. 
-
+3. Select the team that will be managing the adoption bot. 
+![image](https://user-images.githubusercontent.com/54556057/106007331-2f460680-6084-11eb-8792-6b9081d8ddc1.png)
  
+4. Wait for the Dataverse for Teams environment to be created in 30 seconds to a minute. 
+![image](https://user-images.githubusercontent.com/54556057/106007410-44229a00-6084-11eb-93fe-2039f919db2c.png)
 
-Select the team that will be managing the adoption bot. 
-
- 
-
-Wait for the Dataverse for Teams environment to be created in 30 seconds to a minute. 
-
-Graphical user interface, application
-
-Description automatically generated 
-
-Once the environment is created you will be redirected to create your first bot.  You can exit out of it. 
+5. Once the environment is created you will be redirected to create your first bot.  You can exit out of it. 
 
 Import the bot into your Dataverse for Teams environment 
 
 Please follow the instruction in the previous section if you do not have a Dataverse for Teams environment created yet.  Please note that the following instruction also applies to Dataverse full environment but that will require Power Platform licenses in addition to standard Office license. 
 
-Go to www.flow.microsoft.com and select the environment that you would like to own the bot in from the environment picker on the top right corner. 
-
+1. Go to www.flow.microsoft.com and select the environment that you would like to own the bot in from the environment picker on the top right corner. 
+![image](https://user-images.githubusercontent.com/54556057/106007541-69afa380-6084-11eb-9a99-d9a8d73e8cfb.png)
  
+2.Go to Solutions from the left nav menu and select Import. 
+![image](https://user-images.githubusercontent.com/54556057/106007586-79c78300-6084-11eb-8f09-2f4777951a25.png)
 
-Go to Solutions from the left nav menu and select Import. 
-
+3. Select the AdoptionBotPVA package .zip file that you have downloaded from the Github repo.  Select Next. 
+![image](https://user-images.githubusercontent.com/54556057/106007675-8c41bc80-6084-11eb-93d8-a2867815ff6d.png)
  
+4. Read the summary page and select Next again.  You will be asked to provide Connection for the solution.  You can select an existing connection or create a new one by following the instruction of the menu.  Skip to step 7 if you don’t need to create a new connection. 
+![image](https://user-images.githubusercontent.com/54556057/106007726-9a8fd880-6084-11eb-9068-be9e8204ac82.png)
 
-Select the AdoptionBotPVA package .zip file that you have downloaded from the Github repo.  Select Next. 
+5. Optional – create a new connection.  By selecting New connection, a new tab will be opened and select Create on the dialog.  Sign in the account that you want the connector to be run as. 
+![image](https://user-images.githubusercontent.com/54556057/106007808-abd8e500-6084-11eb-8025-4a46d626b47b.png)
 
+6. Once the connection is created, return to the previous tab in Power Automate and select Refresh to get the latest connections. 
+![image](https://user-images.githubusercontent.com/54556057/106007859-bd21f180-6084-11eb-8afa-b4b981b533cb.png)
+
+7. Now select the connection you want to use for the bot.  And do the same for the Office 365 Users connection by selecting and existing one or follow steps 5 and 6 again to create a new Office 365 Users connection. 
+
+8. Select Import.  You will see the status bar showing the solution is being imported.  This can take a few minutes. 
+![image](https://user-images.githubusercontent.com/54556057/106007927-d034c180-6084-11eb-92e7-e6a19f7611c7.png)
  
-
-Read the summary page and select Next again.  You will be asked to provide Connection for the solution.  You can select an existing connection or create a new one by following the instruction of the menu.  Skip to step 7 if you don’t need to create a new connection. 
-
- 
-
-Graphical user interface, application
-
-Description automatically generated 
-
-Optional – create a new connection.  By selecting New connection, a new tab will be opened and select Create on the dialog.  Sign in the account that you want the connector to be run as. 
-
-Graphical user interface, application, Teams
-
-Description automatically generated 
-
-Once the connection is created, return to the previous tab in Power Automate and select Refresh to get the latest connections. 
-
-Graphical user interface, text, application
-
-Description automatically generated 
-
-Now select the connection you want to use for the bot.  And do the same for the Office 365 Users connection by selecting and existing one or follow steps 5 and 6 again to create a new Office 365 Users connection. 
-
-Select Import.  You will see the status bar showing the solution is being imported.  This can take a few minutes. 
-
- 
-
-Once the solution is imported you will see the following success message. 
-
-Graphical user interface, application, email
-
-Description automatically generated 
+9.Once the solution is imported you will see the following success message. 
+![image](https://user-images.githubusercontent.com/54556057/106007979-de82dd80-6084-11eb-8410-2e35afab629c.png)
 
 Turn on and configure connection for the Flows 
 
 Once the solution file is imported, we need to go to configure the connections used in the Power Automate flow of the adoption bot and turn them on. 
 
-Select Default solution and filter the displayed components to Cloud flows on the top right corner. 
+1. Select Default solution and filter the displayed components to Cloud flows on the top right corner. 
+![image](https://user-images.githubusercontent.com/54556057/106008054-efcbea00-6084-11eb-830e-bb6133833840.png)
 
- 
+2. You will see two flows AdoptBot Ask an Expert and AdoptBot Submit Feedback.  
+![image](https://user-images.githubusercontent.com/54556057/106008123-ff4b3300-6084-11eb-8fa1-2b9ef39cfdc4.png)
 
-You will see two flows AdoptBot Ask an Expert and AdoptBot Submit Feedback.   
+3. Select AdoptBot Ask an Expert.  The steps are identical for both flows.  You will need to configure both flows with the same steps below. 
 
-Graphical user interface, application, email
+4. Select Edit on the top menu. 
+![image](https://user-images.githubusercontent.com/54556057/106008221-138f3000-6085-11eb-8f06-c46f2563ab0b.png)
 
-Description automatically generated 
+5. Select the connections for the Office 365 user and Microsoft Teams connector. 
+![image](https://user-images.githubusercontent.com/54556057/106008292-23a70f80-6085-11eb-8a1b-e8fd4a670707.png)
 
-Select AdoptBot Ask an Expert.  The steps are identical for both flows.  You will need to configure both flows with the same steps below. 
+6. Select the Microsoft Teams connector.  Remove the content in the Team field and the Channel field.  Replace it with the team and the channel where your experts will be presented to handle user’s Ask an Expert request and view their feedback.   
+![image](https://user-images.githubusercontent.com/54556057/106008353-33beef00-6085-11eb-88a5-8ac3fb3f7887.png)
 
-Select Edit on the top menu. 
+7. Select Save on the top right corner. 
+![image](https://user-images.githubusercontent.com/54556057/106008408-420d0b00-6085-11eb-9285-14829bcc5d4e.png)
 
-Select the connections for the Office 365 user and Microsoft Teams connector. 
+8. Return to flow details by selecting the back arrow on the top left.   
+![image](https://user-images.githubusercontent.com/54556057/106008466-505b2700-6085-11eb-9c1b-25d303daf9ae.png)
 
- 
-
-Select the Microsoft Teams connector.  Remove the content in the Team field and the Channel field.  Replace it with the team and the channel where your experts will be presented to handle user’s Ask an Expert request and view their feedback.   
-
- 
-
-Select Save on the top right corner. 
-
- 
-
-Return to flow details by selecting the back arrow on the top left.   
-
- 
-
-Select Turn on to turn on the flow.  Repeat the same for AdoptBot Submit Feedback flow. 
-
- 
+9. Select Turn on to turn on the flow.  Repeat the same for AdoptBot Submit Feedback flow. 
+![image](https://user-images.githubusercontent.com/54556057/106008522-60730680-6085-11eb-8566-93388698da18.png)
 
 Test the bot in Power Virtual Agents 
 
 Go to Power Virtual Agents Teams app by following the first step in the ‘Create your Dataverse for Teams environment’ section.  If you imported the bot to a Dataverse full environment, then you need to author the bot from Power Virtual Agents web portal by signing into www.powerva.microsoft.com 
 
-Select Chatbots tab at the top of Power Virtual Agents Teams app 
+1. Select Chatbots tab at the top of Power Virtual Agents Teams app 
+![image](https://user-images.githubusercontent.com/54556057/106008587-7254a980-6085-11eb-843e-78be5fbdde64.png)
 
- 
-
-Select the team name of the Dataverse for Teams environment that you have imported the bot in.  Select the Adoption Bot to enter embedded authoring for the bot in Teams. 
-
-Graphical user interface, application, Teams
-
-Description automatically generated 
+2. Select the team name of the Dataverse for Teams environment that you have imported the bot in.  Select the Adoption Bot to enter embedded authoring for the bot in Teams. 
+![image](https://user-images.githubusercontent.com/54556057/106008665-88626a00-6085-11eb-93a5-2395449f19ca.png)
 
 Matt to fill in the detail on what to try out in the bot 
 
@@ -149,29 +108,22 @@ Publish the bot to your end users
 
 Now that you have tried out the bot and is satisfied with its content, it’s time to make it available to your employees.   
 
-Go to Publish from the left navigation panel.  Select the Publish button and proceed with the confirmation dialog to make the bot content live. 
+1. Go to Publish from the left navigation panel.  Select the Publish button and proceed with the confirmation dialog to make the bot content live. 
+![image](https://user-images.githubusercontent.com/54556057/106008755-9f08c100-6085-11eb-94d3-cc53e7d3aeda.png)
 
+2. Select Share the bot and select Turn on Teams so end users can chat with the bot in Microsoft Teams. 
+![image](https://user-images.githubusercontent.com/54556057/106008804-acbe4680-6085-11eb-8d8d-ab0f20e11c42.png)
+
+3. Select Submit for admin approval on the panel. 
+![image](https://user-images.githubusercontent.com/54556057/106008845-bb0c6280-6085-11eb-9ea9-f16c770a4784.png)
+
+4. Select Download manifest and provide the description and other information relevant to your bot. 
+![image](https://user-images.githubusercontent.com/54556057/106008919-cbbcd880-6085-11eb-99c1-9a37e6f22c8c.png)
  
-
-Select Share the bot and select Turn on Teams so end users can chat with the bot in Microsoft Teams. 
-
- 
-
-Select Submit for admin approval on the panel. 
-
- 
-
-Select Download manifest and provide the description and other information relevant to your bot. 
-
- 
-
-Once you have downloaded the Teams app manifest for your bot, open the teamsApp.zip file on your computer and open the manifest.json file. 
-
- 
+5. Once you have downloaded the Teams app manifest for your bot, open the teamsApp.zip file on your computer and open the manifest.json file. 
+![image](https://user-images.githubusercontent.com/54556057/106008969-d7a89a80-6085-11eb-9771-a0d48b7ba665.png)
 
 Matt to provide the app id to replace the “id” field in the app manifest and instructions to upload custom app into Teams from here. 
-
- 
 
 ## Contributing
 
