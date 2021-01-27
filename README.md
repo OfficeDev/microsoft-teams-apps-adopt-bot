@@ -8,7 +8,7 @@ Benefits:
 - Self service facility to drive adoption at scale, use investment in M365 to help drive adoption of M365
 - No code Bots have quick time to value and net quick win for M365 project team
 - Power Virtual Agent Bots for Teams work with Enterprise customer seeded licensing
-- AdoptBot can be branded.  E.g. AskO365, AskMyCompanyIT
+- AdoptBot can be branded.  E.G. AskO365, AskMyCompanyIT, Larry
 - Solidifies and strengthens your champions network
 - Drive down support costs with fewer service desk tickets*
 
