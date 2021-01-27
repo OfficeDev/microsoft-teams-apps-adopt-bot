@@ -1,19 +1,21 @@
 # AdoptBot
 
-Adopt Bot is a user care Chatbot built with Power Virtual Agent for Teams.
+AdoptBot is a user care Chat bot built with Power Virtual Agent for Teams (PVA).
 
-Adoption Bot answers common questions about Office 365 and Teams.  If users need additional help, Adoption Bot can connect them to experts or open service tickets:
-- Self-help facility to drive adoption at scale - use M365 drive adoption of M365
-- Adoption Bot can be branded.  E.g. AskO365, AskMyCompanyIT
+Out of the box, Adoption Bot answers 100+ common questions about Microsoft 365 and Teams.  You can edit the topis, add your own and injest existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even open service tickets:
+
+Benefits:
+- Self service facility to drive adoption at scale, use investment in M365 to help drive adoption of M365
 - No code Bots have quick time to value and net quick win for M365 project team
 - Power Virtual Agent Bots for Teams work with Enterprise customer seeded licensing
+- AdoptBot can be branded.  E.g. AskO365, AskMyCompanyIT
 - Solidifies and strengthens your champions network
 - Drive down support costs with fewer service desk tickets*
 
 * Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
 ## Deployment Guide
-Create your Dataverse for Teams environment 
+**Create your Dataverse for Teams environment**
 
 You can skip this step if you already have a Dataverse for Teams environment for the team that will be managing the AdoptBot. 
 
@@ -139,15 +141,18 @@ Now that you have tried out the bot and is satisfied with its content, it’s ti
 ![image](https://user-images.githubusercontent.com/54556057/106008755-9f08c100-6085-11eb-94d3-cc53e7d3aeda.png)
 
 2. Select Share the bot and select Turn on Teams so end users can chat with the bot in Microsoft Teams. 
+
 ![image](https://user-images.githubusercontent.com/54556057/106008804-acbe4680-6085-11eb-8d8d-ab0f20e11c42.png)
 
 3. Select Submit for admin approval on the panel. 
 ![image](https://user-images.githubusercontent.com/54556057/106008845-bb0c6280-6085-11eb-9ea9-f16c770a4784.png)
 
 4. Select Download manifest and provide the description and other information relevant to your bot. 
+
 ![image](https://user-images.githubusercontent.com/54556057/106008919-cbbcd880-6085-11eb-99c1-9a37e6f22c8c.png)
  
 5. Once you have downloaded the Teams app manifest for your bot, open the teamsApp.zip file on your computer and open the manifest.json file. 
+
 ![image](https://user-images.githubusercontent.com/54556057/106008969-d7a89a80-6085-11eb-9771-a0d48b7ba665.png)
 
 Matt to provide the app id to replace the “id” field in the app manifest and instructions to upload custom app into Teams from here. 
