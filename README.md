@@ -125,16 +125,27 @@ Go to Power Virtual Agents Teams app by following the first step in the ‘Creat
 
 ![image](https://user-images.githubusercontent.com/54556057/106008665-88626a00-6085-11eb-93a5-2395449f19ca.png)
 
-***Test the bot in Teams***
+**Test the bot in Teams**
 
-Open you AdoptBot and ask common questions like "Guests in Teams".  
+1. Open you AdoptBot and ask common questions like "Guests in Teams".  
 
-**Note: You may want to turn off topics, edit topics or add new topics using Power Virtual Agents App in Teams.  [Create and edit topics in your Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/authoring-create-edit-topics).**
+Note: You may want to turn off topics, edit topics or add new topics using Power Virtual Agents App in Teams.  [Create and edit topics in your Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/authoring-create-edit-topics).
 
-**Note:  You can also extact topics from webpages or online files [Extract content from webpages or online files](https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web)**
+Note:  You can also extract topics from webpages or online files [Extract content from webpages or online files](https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web)
 
-***Test the Flows***
-Foo
+**Test the Flows for Ask an Expert and Submit feedback**
+
+1. Type Ask an Expert in an AdoptBot conversation.
+
+2. Enter a title for your request
+
+3. Enter a description for your request
+
+4. Check the Team and channel you configured in Step 6 for Adaptive Card (Turn on and configure connection for the Flows).  
+
+![image](https://user-images.githubusercontent.com/54556057/106078454-73b3bf80-60e1-11eb-9429-19823c2bef69.png)
+
+5. Type Submit Feedback and test Submit Feedback flow as per instructions above.
 
 **Publish the bot to your end users**
 
