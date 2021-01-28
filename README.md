@@ -141,7 +141,7 @@ Note:  You can also extract topics from webpages or online files [Extract conten
 
 3. Enter a description for your request
 
-4. Check the Team and channel you configured in Step 6 for Adaptive Card (Turn on and configure connection for the Flows).  
+4. Check the Team and channel you configured in Step 6 (Turn on and configure connection for the Flows) for a new Adaptive Card.  
 
 ![image](https://user-images.githubusercontent.com/54556057/106078454-73b3bf80-60e1-11eb-9429-19823c2bef69.png)
 
@@ -170,7 +170,10 @@ Now that you have tried out the bot and is satisfied with its content, it’s ti
 
 ![image](https://user-images.githubusercontent.com/54556057/106008969-d7a89a80-6085-11eb-9771-a0d48b7ba665.png)
 
-Matt to provide the app id to replace the “id” field in the app manifest and instructions to upload custom app into Teams from here. 
+Replace AppID with 6c8c0828-bd30-4c89-900b-5656ac58683c and save the manifest.json
+
+
+Add app setup policy info to pin
 
 ## Contributing
 
