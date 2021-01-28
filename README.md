@@ -8,7 +8,7 @@ Benefits:
 - Self service facility to drive adoption at scale, use investment in M365 to help drive adoption of M365
 - No code Bots have quick time to value and net quick win for M365 project team
 - Capabilities available in the [Power Virtual Agents app in Microsoft Teams are available as part of select Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
-- AdoptBot can be branded.  E.G. AskO365, AskMyCompanyIT, Larry
+- AdoptBot can be branded. E.g. AskM365, AskContosoIT, SageBot, Larry
 - Solidifies and strengthens your champions network as they learn from escalations and improve the knowledge base
 - Drive down support costs with fewer service desk tickets*
 
@@ -125,7 +125,7 @@ Go to Power Virtual Agents Teams app by following the first step in the ‘Creat
 
 ![image](https://user-images.githubusercontent.com/54556057/106008665-88626a00-6085-11eb-93a5-2395449f19ca.png)
 
-3. Chat with your AdoptBot in PVA embeded authoriing - Test bot pane.  Ask common questions like "Guests in Teams".  
+3. Chat with your AdoptBot in PVA embedded authoriing - Test bot pane.  Ask common questions like "Guests in Teams".  
 
 Note: You may want to turn off topics, edit topics or add new topics using Power Virtual Agents App in Teams.  [Create and edit topics in your Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/authoring-create-edit-topics).
 
@@ -165,15 +165,49 @@ Now that you have tried out the bot and is satisfied with its content, it’s ti
 
 ![image](https://user-images.githubusercontent.com/54556057/106008919-cbbcd880-6085-11eb-99c1-9a37e6f22c8c.png)
  
-5. Once you have downloaded the Teams app manifest for your bot, open the teamsApp.zip file on your computer and edit the manifest.json file. 
+5. Once you have downloaded the Teams app manifest for your bot, extract the teamsApp.zip file on your computer and edit the manifest.json file. 
 
 6. Replace AppID with 6c8c0828-bd30-4c89-900b-5656ac58683c and save the manifest.json
 
-**Add the bot to tenant app store and pin to left rail in Teams**
+7. Rezip the 3 files (Manifest and two icons)
 
-1. Work in progress 
+**Upload the bot to your tenant app**
+
+When you publish a custom Teams app, it's available to users in your organization's app store.
+
+Note:  adding Apps to your tenant requires upload custom apps to be enabled in policy.  See this article for details [Publish a custom app by uploading an app package](https://docs.microsoft.com/en-us/microsoftteams/upload-custom-apps)
+
+1. Launch Microsoft Teams admin center.
+
+2. In the left navigation of the Microsoft Teams admin center, go to Teams apps > Manage apps.
+
+3. Click Upload, click Select the zip file you edited in the prior step.
+
+![image](https://user-images.githubusercontent.com/54556057/106159851-3b4cc980-6153-11eb-8edb-2c2019cdd347.png)
+
+**Pin and install the app for users to discover**
+
+By default, for users to find the app they have to go to your organization's app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. 
+
+1. In the left navigation of the Microsoft Teams admin center, go to Teams apps > Setup policies.
+
+2. Select the policy by clicking to the left of the policy name, and then select Edit.
+
+3. Under Pinned apps, select Add apps.
+
+4. In the Add pinned apps pane, search for the apps you want to add, and then select Add. You can also filter apps by app permission policy. When you've chosen your list of apps to pin, select Add.
+
+![image](https://user-images.githubusercontent.com/54556057/106160982-6c79c980-6154-11eb-82ea-6969a2c6e84d.png)
+
+5. Arrange the apps in the order that you want them to appear in Teams, and then select Save.
+
+![image](https://user-images.githubusercontent.com/54556057/106161093-8adfc500-6154-11eb-9e80-895e3b574c84.png)
+
+See this article for additional details:  [Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies)
 
 ## Contributing
+
+Special thanks to contributors Erik Olsson, Aditya Challapally, Michael Chow, Jong Hoon Moon, Belinda Parker and Nidhi Shandilya who helped create and launch this app template.  
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
