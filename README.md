@@ -159,11 +159,11 @@ Now that you have tried out the bot and is satisfied with its content, it’s ti
 
 3. Select Submit for admin approval on the panel. 
 
-![image](https://user-images.githubusercontent.com/54556057/106008919-cbbcd880-6085-11eb-99c1-9a37e6f22c8c.png)
+![image](https://user-images.githubusercontent.com/54556057/106008845-bb0c6280-6085-11eb-9ea9-f16c770a4784.png)
 
 4. Select Download manifest and provide the description and other information relevant to your bot. 
 
-![image](https://user-images.githubusercontent.com/54556057/106008845-bb0c6280-6085-11eb-9ea9-f16c770a4784.png)
+![image](https://user-images.githubusercontent.com/54556057/106008919-cbbcd880-6085-11eb-99c1-9a37e6f22c8c.png)
  
 5. Once you have downloaded the Teams app manifest for your bot, open the teamsApp.zip file on your computer and open the manifest.json file. 
 
