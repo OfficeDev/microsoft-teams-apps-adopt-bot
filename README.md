@@ -125,7 +125,7 @@ Go to Power Virtual Agents Teams app by following the first step in the ‘Creat
 
 ![image](https://user-images.githubusercontent.com/54556057/106008665-88626a00-6085-11eb-93a5-2395449f19ca.png)
 
-Test the bot by asking common questions like "Guests in Teams".  At this time you may want to turn off, edit or add new topics.  You can also ingest existing collateral by following this article: https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web
+Test the bot by asking common questions like "Guests in Teams".  At this time you may want to turn off topics, edit topics or add new topics using Power Virtual Agents App in Teams.  You can also ingest existing FAQs, see article: https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web
 
 **Test the Flows**
 
