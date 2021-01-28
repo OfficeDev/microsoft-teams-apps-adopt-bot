@@ -165,11 +165,13 @@ Now that you have tried out the bot and is satisfied with its content, it’s ti
 
 ![image](https://user-images.githubusercontent.com/54556057/106008919-cbbcd880-6085-11eb-99c1-9a37e6f22c8c.png)
  
-5. Once you have downloaded the Teams app manifest for your bot, open the teamsApp.zip file on your computer and open the manifest.json file. 
+5. Once you have downloaded the Teams app manifest for your bot, open the teamsApp.zip file on your computer and edit the manifest.json file. 
 
-Replace AppID with 6c8c0828-bd30-4c89-900b-5656ac58683c and save the manifest.json
+6. Replace AppID with 6c8c0828-bd30-4c89-900b-5656ac58683c and save the manifest.json
 
-Add app setup policy info to pin
+**Add the bot to tenant app store and pin to left rail in Teams**
+
+1. Work in progress 
 
 ## Contributing
 
