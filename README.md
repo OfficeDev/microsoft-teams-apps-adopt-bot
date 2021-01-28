@@ -45,7 +45,7 @@ Please follow the instruction in the previous section if you do not have a Datav
 
 ![image](https://user-images.githubusercontent.com/54556057/106007541-69afa380-6084-11eb-9a99-d9a8d73e8cfb.png)
  
-2.Go to Solutions from the left nav menu and select Import. 
+2. Go to Solutions from the left nav menu and select Import. 
 
 ![image](https://user-images.githubusercontent.com/54556057/106007586-79c78300-6084-11eb-8f09-2f4777951a25.png)
 
@@ -71,7 +71,7 @@ Please follow the instruction in the previous section if you do not have a Datav
 
 ![image](https://user-images.githubusercontent.com/54556057/106007927-d034c180-6084-11eb-92e7-e6a19f7611c7.png)
  
-9.Once the solution is imported you will see the following success message. 
+9. Once the solution is imported you will see the following success message. 
 
 ![image](https://user-images.githubusercontent.com/54556057/106007979-de82dd80-6084-11eb-8410-2e35afab629c.png)
 
