@@ -2,7 +2,7 @@
 
 AdoptBot is a user care Chat bot built with Power Virtual Agent for Teams (PVA).
 
-Out of the box, AdoptBot answers 100+ common questions about Microsoft 365 and Teams.  You can edit the included topics, add your own topics, and ingest existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even be easily extended to open service tickets.
+Out of the box, AdoptBot answers 100+ common questions about Microsoft 365 and Teams.  You can edit the included topics, add your own topics, and ingest existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even be extended to open service tickets with premium Flow connectors.
 
 Benefits:
 - Self service facility to drive adoption at scale, use investment in M365 to help drive adoption of M365
