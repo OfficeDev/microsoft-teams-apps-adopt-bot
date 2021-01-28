@@ -12,7 +12,7 @@ Benefits:
 - Solidifies and strengthens your champions network as they learn from escalations and improve the knowledge base
 - Drive down support costs with fewer service desk tickets*
 
-* Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
+*Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
 ## Deployment Guide
 **Create your Dataverse for Teams environment**
