@@ -7,7 +7,7 @@ Out of the box, AdoptBot answers 100+ common questions about Microsoft 365 and 
 Benefits:
 - Self service facility to drive adoption at scale, use investment in M365 to help drive adoption of M365
 - No code Bots have quick time to value and net quick win for M365 project team
-- Power Virtual Agent Bots for Teams work with Enterprise customer seeded licensing
+- Capabilities available in the [Power Virtual Agents app in Microsoft Teams are available as part of select Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
 - AdoptBot can be branded.  E.G. AskO365, AskMyCompanyIT, Larry
 - Solidifies and strengthens your champions network
 - Drive down support costs with fewer service desk tickets*
