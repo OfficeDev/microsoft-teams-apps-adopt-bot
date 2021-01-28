@@ -27,7 +27,7 @@ You can skip this step if you already have a Dataverse for Teams environment for
 
 ![image](https://user-images.githubusercontent.com/54556057/106007208-0de51a80-6084-11eb-9067-d4ef939d40fc.png)
 
-3. Select the team that will be managing the AdoptBot.
+3. Select the team that will be managing the Bot.
 
 ![image](https://user-images.githubusercontent.com/54556057/106007331-2f460680-6084-11eb-8792-6b9081d8ddc1.png)
  
