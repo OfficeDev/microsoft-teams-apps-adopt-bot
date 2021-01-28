@@ -2,17 +2,17 @@
 
 AdoptBot is a user care Chat bot built with Power Virtual Agent for Teams (PVA).
 
-Out of the box, AdoptBot answers 100+ common questions about Microsoft 365 and Teams.  You can edit the included topics, add your own topics, and injest existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even be easily extended to open service tickets.
+Out of the box, AdoptBot answers 100+ common questions about Microsoft 365 and Teams.  You can edit the included topics, add your own topics, and ingest existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even be easily extended to open service tickets.
 
 Benefits:
-- Self service facility to drive adoption at scale, use investment in M365 to help drive adoption of M365
+- Self service facility to drive adoption at scale, use investment in M365 to help drive adoption of M365
 - No code Bots have quick time to value and net quick win for M365 project team
 - Capabilities available in the [Power Virtual Agents app in Microsoft Teams are available as part of select Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
-- AdoptBot can be branded.  E.G. AskO365, AskMyCompanyIT, Larry
-- Solidifies and strengthens your champions network
+- AdoptBot can be branded.  E.G. AskO365, AskMyCompanyIT, Larry
+- Solidifies and strengthens your champions network as they learn from escalations and improve the knowledge base
 - Drive down support costs with fewer service desk tickets*
 
-* Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
+* Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
 ## Deployment Guide
 **Create your Dataverse for Teams environment**
@@ -53,7 +53,7 @@ Please follow the instruction in the previous section if you do not have a Datav
 
 ![image](https://user-images.githubusercontent.com/54556057/106007675-8c41bc80-6084-11eb-93d8-a2867815ff6d.png)
  
-4. Read the summary page and select Next again.  You will be asked to provide Connection for the solution.  You can select an existing connection or create a new one by following the instruction of the menu.  Skip to step 7 if you don’t need to create a new connection. *Note: Consider using a service account for the connections as notifcation cards originate from this account.  The service account will need a license that includes Exchange Online mailbox.*
+4. Read the summary page and select Next again.  You will be asked to provide Connection for the solution.  You can select an existing connection or create a new one by following the instruction of the menu.  Skip to step 7 if you don’t need to create a new connection. *Note: Consider using a service account for the connections as notification cards originate from this account.  The service account will need a license that includes Exchange Online mailbox.*
 
 ![image](https://user-images.githubusercontent.com/54556057/106007726-9a8fd880-6084-11eb-9068-be9e8204ac82.png)
 
@@ -125,7 +125,7 @@ Go to Power Virtual Agents Teams app by following the first step in the ‘Creat
 
 ![image](https://user-images.githubusercontent.com/54556057/106008665-88626a00-6085-11eb-93a5-2395449f19ca.png)
 
-Test the bot by asking common questions like "Guests in Teams".  At this time you may want to turn off, edit or add new topics.  You can also ingest existing colleratal by following this article: https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web
+Test the bot by asking common questions like "Guests in Teams".  At this time you may want to turn off, edit or add new topics.  You can also ingest existing collateral by following this article: https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web
 
 **Test the Flows**
 
