@@ -14,7 +14,7 @@ Benefits:
 
 *Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
-[Adopt Bot App Template for Microsoft Teams](https://youtu.be/xEqErtGxizU)
+[Adopt Bot App Template for Microsoft Teams Overview and Demo](https://youtu.be/xEqErtGxizU)
 
 ## Deployment Guide
 **Create your Dataverse for Teams environment**
