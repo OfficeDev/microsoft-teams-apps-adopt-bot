@@ -117,7 +117,7 @@ Once the solution file is imported, we need to go to configure the connections u
 
 **Test the bot in Power Virtual Agents**
 
-Go to Power Virtual Agents Teams app by following the first step in the ‘Create your Dataverse for Teams environment’ section.  If you imported the bot to a Dataverse full environment, then you need to author the bot from Power Virtual Agents web portal by signing into www.powerva.microsoft.com 
+Go to Power Virtual Agents Teams app by following the first step in the ‘Create your Dataverse for Teams environment’ section.  If you imported the bot to a Dataverse full environment, then you need to author the bot from Power Virtual Agents web portal by signing into http://powerva.microsoft.com 
 
 1. Select Chatbots tab at the top of Power Virtual Agents Teams app 
 
