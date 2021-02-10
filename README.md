@@ -1,20 +1,20 @@
 # AdoptBot
 
-AdoptBot is a user care Chat bot built with Power Virtual Agent for Teams (PVA).
+Adoption Bot is a user care Chat bot built with Power Virtual Agent for Teams (PVA).
 
-Out of the box, AdoptBot answers 100+ common questions about Microsoft 365 and Teams.  You can edit the included topics, add your own topics, and ingest existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even be extended to open service tickets with premium Flow connectors.
+Out of the box, Adoption Bot answers 100+ common questions about Microsoft 365 and Teams.  You can edit the included topics, add your own topics, and ingest existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even be extended to open service tickets with premium Flow connectors.
 
 Benefits:
-- Self service facility to drive adoption at scale, use investment in M365 to help drive adoption of M365
+- Self service facility drives adoption at scale, use existing investment to drive adoption
 - No code Bots have quick time to value and net quick win for M365 project team
 - Capabilities available in the [Power Virtual Agents app in Microsoft Teams are available as part of select Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
 - AdoptBot can be branded. E.g. AskM365, AskContosoIT, SageBot, Larry
-- Solidifies and strengthens your champions network as they learn from escalations and improve the knowledge base
 - Drive down support costs with fewer service desk tickets*
 
 *Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
-[Adopt Bot App Template for Microsoft Teams Overview and Demo](https://youtu.be/xEqErtGxizU)
+[Demo Video](https://youtu.be/xEqErtGxizU)
+[QnA Pairs hoted in 41+ languages](https://adoptbotv2kb.blob.core.windows.net/%24web/adoptbot2021.html)
 
 ## Deployment Guide
 **Create your Dataverse for Teams environment**
