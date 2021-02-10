@@ -1,5 +1,5 @@
 # Adoption Bot
-[Demo animated GIF](https://adoptbotv2kb.blob.core.windows.net/%24web/adoptbotgithub.gif)
+![Demo animated GIF](https://adoptbotv2kb.blob.core.windows.net/%24web/adoptbotgithub.gif)
 Adoption Bot is a user care Chat bot built with Power Virtual Agent for Teams (PVA).
 
 Out of the box, Adoption Bot answers 100+ common questions about Microsoft 365 and Teams.  You can edit the included topics, add your own topics, and ingest existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even be extended to open service tickets with premium Flow connectors.
