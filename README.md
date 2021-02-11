@@ -156,9 +156,9 @@ IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot ca
 
 3. Remap the 3 input variables (UPN -> bot.UserId, Title -> Var_AskTitle, Desc -> Var_AskDesc)
 
-4. Save the topic
+4. Save the Esclate topic and re-test in PVA Test UI
 
-![image](https://user-images.githubusercontent.com/54556057/107695909-3e7da480-6c7f-11eb-9809-a874295a3ad6.png)
+![image](https://user-images.githubusercontent.com/54556057/107696185-a2a06880-6c7f-11eb-9a1d-83b5317cb28d.png)
 
 **Publish the bot to your end users**
 
