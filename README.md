@@ -158,9 +158,7 @@ IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot ca
 
 4. Save the topic
 
-5. Publish the Bot
-
-![image](https://user-images.githubusercontent.com/54556057/107695285-5f91c580-6c7e-11eb-9f9d-dbb61c40f6f3.png)
+![image](https://user-images.githubusercontent.com/54556057/107695622-de86fe00-6c7e-11eb-8977-e34ffc04d3c5.png)
 
 **Publish the bot to your end users**
 
