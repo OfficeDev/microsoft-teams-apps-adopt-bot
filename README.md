@@ -146,6 +146,20 @@ Note:  You can also extract topics from webpages or online files [Extract conten
 
 5. Type Submit Feedback and test Submit Feedback flow as per instructions above.
 
+IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot can't talk for a while.." you need to remove and re-add the Ask An Expert Action in the Esclate topic.
+
+![image](https://user-images.githubusercontent.com/54556057/107689540-f22e6680-6c76-11eb-84c3-af8c28dd9543.png)
+
+1. Click the ellipsis next to Ask An Expert Action and choose delete
+
+2. Click + Add node in PVA conversation tree and choose Call an Action
+
+3. Remap the 3 input variables (UPN -> bot.UserId, Title -> Var_AskTitle, Desc -> Var_AskDesc)
+
+4. Save the topic
+
+![image](https://user-images.githubusercontent.com/54556057/107693856-a979ac00-6c7c-11eb-9f8a-d693267fd093.png)
+
 **Publish the bot to your end users**
 
 Now that you have tried out the bot and is satisfied with its content, it’s time to make it available to your employees.   
