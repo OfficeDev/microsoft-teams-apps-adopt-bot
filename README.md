@@ -150,15 +150,17 @@ IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot ca
 
 ![image](https://user-images.githubusercontent.com/54556057/107689540-f22e6680-6c76-11eb-84c3-af8c28dd9543.png)
 
-1. Click the ellipsis next to Ask An Expert Action and choose delete
+1. Click the ellipsis next to Ask An Expert Flow Action and Choose Delete
 
-2. Click + Add node in PVA conversation tree and choose Call an Action
+2. Click + Add node in PVA conversation tree and choose Call an Action - AdoptBot Ask An Expert
 
 3. Remap the 3 input variables (UPN -> bot.UserId, Title -> Var_AskTitle, Desc -> Var_AskDesc)
 
 4. Save the topic
 
-![image](https://user-images.githubusercontent.com/54556057/107694665-a16e3c00-6c7d-11eb-80d5-83022d89200b.png)
+5. Publish the Bot
+
+![image](https://user-images.githubusercontent.com/54556057/107695285-5f91c580-6c7e-11eb-9f9d-dbb61c40f6f3.png)
 
 **Publish the bot to your end users**
 
