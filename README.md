@@ -146,7 +146,7 @@ Note:  You can also extract topics from webpages or online files [Extract conten
 
 5. Type Submit Feedback and test Submit Feedback flow as per instructions above.
 
-IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot can't talk for a while.." you need to remove and re-add the Ask An Expert Action in the Esclate topic.
+IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot can't talk for a while.." you need to remove and re-add the Ask An Expert Action in the Escalate topic.
 
 ![image](https://user-images.githubusercontent.com/54556057/107689540-f22e6680-6c76-11eb-84c3-af8c28dd9543.png)
 
@@ -156,7 +156,7 @@ IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot ca
 
 3. Remap the 3 input variables (UPN -> bot.UserId, Title -> Var_AskTitle, Desc -> Var_AskDesc)
 
-4. Save the Esclate topic and re-test in PVA Test UI
+4. Save the Escalate topic and re-test in PVA Test UI
 
 
 **Publish the bot to your end users**
