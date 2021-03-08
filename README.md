@@ -11,9 +11,14 @@ Benefits:
 
 *Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
-[Adoption Bot Over and Demo on YouTube](https://youtu.be/xEqErtGxizU)
+[Adoption Bot Overview and Demo on YouTube](https://youtu.be/xEqErtGxizU)
 
 [Adoption Bot QnA Pairs for hosted in 41+ languages](https://adoptbotv2kb.blob.core.windows.net/%24web/adoptbot2021.html)
+
+[Awesome video by Stuart Ridout - Set up an FAQ bot in Microsoft Teams using Power Virtual Agent for Teams](https://www.youtube.com/watch?v=oX1MwSwqm7E)
+
+## Costs
+Adoption Bot and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
 
 ## Deployment Guide
 **Create your Dataverse for Teams environment**
@@ -185,7 +190,7 @@ Now that you have tried out the bot and is satisfied with its content, it’s ti
 
 7. Rezip the 3 files (Manifest and two icons)
 
-**Upload the bot to your tenant app**
+**Upload the bot to your tenant app store**
 
 When you publish a custom Teams app, it's available to users in your organization's app store.
 
@@ -218,6 +223,13 @@ By default, for users to find the app they have to go to your organization's app
 ![image](https://user-images.githubusercontent.com/54556057/106161093-8adfc500-6154-11eb-9e80-895e3b574c84.png)
 
 See this article for additional details:  [Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies)
+
+**Make Adoption Bot your own**
+
+- Review the included topics and remove or edit as you see fit.
+- Add your own topics.  A best practice is to look at top help desk tickets and craft topics that map to top use questions.
+- Use [Create topics from existing online support content](https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web) to automatically extract topics from your existing support documentation.  
+
 
 ## Contributing
 
