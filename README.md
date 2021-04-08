@@ -57,7 +57,7 @@ You can skip this step if you already have a Dataverse for Teams environment for
 
 Please follow the instruction in the previous section if you do not have a Dataverse for Teams environment created yet.  Please note that the following instruction also applies to Dataverse full environment but that will require Power Platform licenses in addition to standard Office license.
 
-1. Go to www.flow.microsoft.com and select the environment that you would like to own the bot in from the environment picker on the top right corner.  IMPORTANT:  Choose the team you created in step 3 above.
+1. Go to www.flow.microsoft.com and select the environment that you would like to own the bot in from the environment picker on the top right corner.  IMPORTANT:  Choose the Team you created in step 3 above.
 
 ![image](https://user-images.githubusercontent.com/54556057/106007541-69afa380-6084-11eb-9a99-d9a8d73e8cfb.png)
  
