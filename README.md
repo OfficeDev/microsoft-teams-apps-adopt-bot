@@ -51,7 +51,7 @@ You can skip this step if you already have a Dataverse for Teams environment for
 
 ![image](https://user-images.githubusercontent.com/54556057/106007410-44229a00-6084-11eb-93fe-2039f919db2c.png)
 
-5. Once the environment is created you will be redirected to create your first bot.  You can exit out of it. 
+5. Once the environment is created you will be redirected to Create a new bot.  Exit out of it by clicking X in upper right. 
 
 **Import the bot into your Dataverse for Teams environment**
 
