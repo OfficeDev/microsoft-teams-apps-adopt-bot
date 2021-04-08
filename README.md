@@ -226,6 +226,7 @@ See this article for additional details:  [Manage app setup policies in Microsof
 
 **Make Adoption Bot your own**
 
+- Rename the Bot to something that malkes sense to your organization
 - Review the included topics and remove or edit as you see fit.
 - Add your own topics.  A best practice is to look at top help desk tickets and craft topics that map to top use questions.
 - Use [Create topics from existing online support content](https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web) to automatically extract topics from your existing support documentation.  
