@@ -20,6 +20,16 @@ Benefits:
 ## Costs
 Adoption Bot and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
 
+
+## Prerequisites
+-	Subscription that includes Power Virtual Agents for Teams.  Most except GCC, A1 and SUB SKUs
+Get access to Power Virtual Agents - Power Virtual Agents | Microsoft Docs
+-	Power Virtual Agents for Teams App (do not use PVA web)
+-	Microsoft Teams Team to host the Bot/Dataverse
+-	Microsoft Teams Team for Ask an Expert and Submit Feedback Escalation to land in
+-	Teams Admin rights to upload custom app and set Teams App Setup Policy
+
+
 ## Deployment Guide
 **Create your Dataverse for Teams environment**
 
