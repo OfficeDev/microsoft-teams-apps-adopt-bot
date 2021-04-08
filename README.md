@@ -22,8 +22,8 @@ Adoption Bot and [Power Virtual Agents app in Microsoft Teams are available as p
 
 
 ## Prerequisites
--	Subscription that includes Power Virtual Agents for Teams.  Most except GCC, A1 and SUB SKUs
-Get access to Power Virtual Agents - Power Virtual Agents | Microsoft Docs
+-	Subscription that includes Power Virtual Agents for Teams.  Most plans except GCC, A1 and SUB SKUs
+[Get access to Power Virtual Agents - Power Virtual Agents | Microsoft Docs](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
 -	Power Virtual Agents for Teams App (do not use PVA web)
 -	Microsoft Teams Team to host the Bot/Dataverse
 -	Microsoft Teams Team for Ask an Expert and Submit Feedback Escalation to land in
