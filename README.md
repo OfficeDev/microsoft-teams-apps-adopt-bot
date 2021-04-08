@@ -163,6 +163,11 @@ IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot ca
 
 4. Save the Escalate topic and re-test in PVA Test UI
 
+**Brand Adoption Bot for your organization**
+
+Optionally, you can give the bot a name that makes sense to your organization.  To change the Bot name and icon, click Manage and Details.  Click save at the top.
+
+![image](https://user-images.githubusercontent.com/54556057/114073509-5afa1f80-9871-11eb-8997-de72c77f768f.png)
 
 **Publish the bot to your end users**
 
