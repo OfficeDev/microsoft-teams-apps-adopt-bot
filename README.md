@@ -17,8 +17,8 @@ Benefits:
 
 [Awesome video by Stuart Ridout - Set up an FAQ bot in Microsoft Teams using Power Virtual Agent for Teams](https://www.youtube.com/watch?v=oX1MwSwqm7E)
 
-## Costs
-Adoption Bot and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
+## Cost
+Free for most Enterprise customers.  Adoption Bot and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
 
 
 ## Prerequisites
