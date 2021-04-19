@@ -192,18 +192,6 @@ Note:  You can also extract topics from webpages or online files [Extract conten
 
 42. Type Agent again and test Submit Feedback flow as per instructions above.
 
-IMPORTANT:  If Ask An Expert or Submit Feeback Flow fails with "Sorry the Bot can't talk for a while.." you need to remove and re-add the Ask An Expert Action in the Escalate topic.
-
-![image](https://user-images.githubusercontent.com/54556057/107689540-f22e6680-6c76-11eb-84c3-af8c28dd9543.png)
-
-1. Click the ellipsis next to Ask An Expert Flow Action and Choose Delete
-
-2. Click + Add node in PVA conversation tree and choose Call an Action - AdoptBot Ask An Expert
-
-3. Remap the 3 input variables (UPN -> bot.UserId, Title -> Var_AskTitle, Desc -> Var_AskDesc)
-
-4. Save the Escalate topic and re-test in PVA Test UI
-
 **Brand Adoption Bot for your organization**
 
 Optionally, you can give the bot a name that makes sense to your organization.  To change the Bot name and icon, click Manage and Details.  Click save at the top.
