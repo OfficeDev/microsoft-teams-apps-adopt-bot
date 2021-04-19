@@ -51,7 +51,6 @@ You can skip this step if you already have a Team for Champions or support perso
 
 ![image](https://user-images.githubusercontent.com/54556057/115288087-0717f200-a11f-11eb-92fa-4a835ddbc440.png)
 
-
 **Prepare to import**
 
 1.	Search for Power Apps Teams app in Microsoft Teams app store.
@@ -81,8 +80,10 @@ If you do see Apps listed skip to 7.
 ![image](https://user-images.githubusercontent.com/54556057/115288826-e734fe00-a11f-11eb-9be0-cb703990128f.png)
 
 **Import**
+
 7.	Click Home Tab at the top of Power Apps for Teams App
-8.	Below Recent Apps Click See More ->
+
+9.	Below Recent Apps Click See More ->
 
 ![image](https://user-images.githubusercontent.com/54556057/115288902-02077280-a120-11eb-8f1b-38f7bb9ae749.png)
 
