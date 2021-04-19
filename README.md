@@ -17,7 +17,7 @@ Benefits:
 
 [Awesome video by Stuart Ridout - Set up an FAQ bot in Microsoft Teams using Power Virtual Agent for Teams](https://www.youtube.com/watch?v=oX1MwSwqm7E)
 
-[If you would rather build the Adoption Bot from scratch, follow this Step, by Step guide](https://1drv.ms/w/s!Ah-35FI1EEXFiFGt7DEV164pZQc2?e=dKzMTO)
+[If you would rather build the Adoption Bot from scratch, follow this Step by Step guide](https://1drv.ms/w/s!Ah-35FI1EEXFiFGt7DEV164pZQc2?e=dKzMTO)
 
 ## Cost
 Free for most Enterprise customers.  Adoption Bot and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
