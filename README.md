@@ -170,7 +170,7 @@ If you do see Apps listed skip to 7.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290977-2ebc8980-a122-11eb-91d2-f49d2fcbdf26.png)
 
-36 Chat with your AdoptBot in PVA embedded authoriing - Test bot pane.  Ask common questions like "Guests in Teams".  
+36. Chat with your AdoptBot in PVA embedded authoriing - Test bot pane.  Ask common questions like "Guests in Teams".  
 
 Note: You may want to turn off topics, edit topics or add new topics using Power Virtual Agents App in Teams.  [Create and edit topics in your Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/authoring-create-edit-topics).
 
