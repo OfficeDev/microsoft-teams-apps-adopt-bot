@@ -113,7 +113,9 @@ If you do see Apps listed skip to 7.
 
 ![image](https://user-images.githubusercontent.com/54556057/115289661-d1740880-a120-11eb-96c0-17a0b092bf5a.png)
 
-17.	Its recommended you use a service account as the Flow notifications will orginate from that account.  The Service account needs Teams License.
+17.	It's recommended you use a generic or service for the Flow connections.  Flow notifications will orginate from that account.  The Service account needs Teams License and Exchange Online Mailbox/license.
+
+![image](https://user-images.githubusercontent.com/54556057/116165279-841c0c00-a6c9-11eb-8542-37810b5e8b39.png)
 
 19.	In the Microsoft Teams New Connections Click Create.
 
