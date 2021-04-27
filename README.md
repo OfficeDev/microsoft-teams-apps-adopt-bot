@@ -31,23 +31,22 @@ Free for most Enterprise customers.  Adoption Bot and [Power Virtual Agents app 
 -	Microsoft Teams Team for Ask an Expert and Submit Feedback Escalation to land in
 -	Teams Admin rights to upload custom app and set Teams App Setup Policy
 
-
 ## Deployment Guide
 **Create Teams to host the Dataverse for Teams environment**
 You can skip this step if you already have a Team for the team that will be developing and managing the Adoption Bot.
 
-1.	Create a new Team in Microsoft Teams to host your Dataverse.  Open Microsoft Teams and Click Join or Create a Team
-2.	Choose Create a Team from scratch
-3.	Team can be public or private
+1.	Create a new Team in Microsoft Teams to host your Dataverse.  Open Microsoft Teams and Click Join or Create a Team.
+2.	Choose Create a Team from scratch.
+3.	Team can be public or private.
 4.	We don’t need to add any users currently.  Any owner of this team will have authoring rights to your Adoption Bot. 
 
 **Create a Teams where Submit Feedback and Ask An Expert escalations land**
 You can skip this step if you already have a Team for Champions or support personal who will monitor bot esclations.
 
-1.	Create a new Team in Microsoft Teams to host esclations.  Open Microsoft Teams and Click Join or Create a Team
-2.	Choose Create a Team from scratch
-3.	Team can be public or private
-4.	Add members who will have access to Bot escalations.  You can create seperate channels for Submit Feedback and Asn An Export or have them both go to the same channel
+1.	Create a new Team in Microsoft Teams to host esclations.  Open Microsoft Teams and Click Join or Create a Team.
+2.	Choose Create a Team from scratch.
+3.	Team can be public or private.
+4.	Add members who will have access to Bot escalations.  You can create seperate channels for Submit Feedback and Asn An Export or have them both go to the same channel.
 
 ![image](https://user-images.githubusercontent.com/54556057/115288087-0717f200-a11f-11eb-92fa-4a835ddbc440.png)
 
@@ -79,37 +78,39 @@ If you do see Apps listed skip to 7.
 
 ![image](https://user-images.githubusercontent.com/54556057/115288826-e734fe00-a11f-11eb-9be0-cb703990128f.png)
 
-**Import**
+**Import PVA Chatbot and Flows**
 
-7.	Click Home Tab at the top of Power Apps for Teams App
+7.	Click Home Tab at the top of Power Apps for Teams App.
 
-9.	Below Recent Apps Click See More ->
+9.	Below Recent Apps Click See More ->.
 
 ![image](https://user-images.githubusercontent.com/54556057/115288902-02077280-a120-11eb-8f1b-38f7bb9ae749.png)
 
-9.	Click See All Under Items Created for TEAM_NAME
+9.	Click See All Under Items Created for TEAM_NAME.
 
 ![image](https://user-images.githubusercontent.com/54556057/115288964-1481ac00-a120-11eb-9464-c0a15f20828d.png)
 
-10.	Click Import at top of Solution Explorer
+10.	Click Import at top of Solution Explorer.
 
 ![image](https://user-images.githubusercontent.com/54556057/115289212-54489380-a120-11eb-8100-c3bd50652a90.png)
 
-11.	Choose the Zip file you downloaded from the Adoption Bot GitHub Repro
-12. Click Next
+11.	Choose the Zip file you downloaded from the Adoption Bot GitHub Repro.
+
+12. Click Next.
 
 ![image](https://user-images.githubusercontent.com/54556057/115289319-704c3500-a120-11eb-8595-6a07af58840b.png)
 
-13.	You should see confirmation we are importing 2 Flows and 1 Chatbot
+13.	You should see confirmation we are importing 2 Flows and 1 Chatbot.
 
 ![image](https://user-images.githubusercontent.com/54556057/115289401-835f0500-a120-11eb-8d9a-b2a16890d7be.png)
 
-14.	Click Next
-15.	Next we need to specify Connections for Teams and Office 365 user connectors used in the Flows
+14.	Click Next.
+
+16.	Next we need to specify Connections for Teams and Office 365 user connectors used in the Flows.
 
 **Create or select connections for Flows**
 
-16.	If you have existing connections choose them now.  To create new connections, Click dropdown next to Microsoft Teams and + New Connection
+16.	If you have existing connections choose them now.  A connection is the security  context (account) the Flow runs under.  To create new connections, Click dropdown next to Microsoft Teams and + New Connection.
 
 ![image](https://user-images.githubusercontent.com/54556057/115289661-d1740880-a120-11eb-96c0-17a0b092bf5a.png)
 
@@ -121,54 +122,61 @@ If you do see Apps listed skip to 7.
 
 ![image](https://user-images.githubusercontent.com/54556057/115289738-e8b2f600-a120-11eb-83c1-6750eb7ef362.png)
 
-19.	Specify and sign into the the account you want to use for the connection.  In my case service@tenant.com
+19.	Specify and sign into the the account you want to use for the connection.  E.g. service@contosomfg.com.
 
 ![image](https://user-images.githubusercontent.com/54556057/115289797-fb2d2f80-a120-11eb-80d3-25b7e349bd1c.png)
 
-20.	You should see the new connection for Teams Listed
+20.	You should see the new connection for Teams Listed.
 
 ![image](https://user-images.githubusercontent.com/54556057/115289902-0da76900-a121-11eb-9fe8-ff96cf5a3e3d.png)
 
 21.	Go back to Power App for Teams App and Hit Refresh button on screen.  You should see Teams now has a valid connection – in my example using a service account.
-22.	Do the same steps for the Office 365 Users Connection:   Drop Down Select a Connection, Click New Connection, Create, Sign in with account.
-23.	Now back in Power Apps for Teams you should see 2 valid connections for the Flows being imported.
+
+23.	Do the same steps for the Office 365 Users Connection:   Drop Down Select a Connection, Click New Connection, Create, Sign in with account.
+
+25.	Now back in Power Apps for Teams you should see 2 valid connections for the Flows being imported.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290023-23b52980-a121-11eb-9a7d-45126c15122a.png)
 
-24.	Click Import
+24.	Click Import.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290082-37f92680-a121-11eb-8643-0d082346f327.png)
 
-25.	After a few minutes you should see 
+25.	After a few minutes you should see this.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290187-46dfd900-a121-11eb-9904-c355d65e76bb.png)
 
-**Configure Flows**
+**Configure Team and Channels for Ask An Expert and Submit Feedback Flows**
 
-26.	Back in Power App for Teams App Build Tab, Click See all
-27.	Click Cloud Flows – you should have 2 flows listed
+26.	Back in Power App for Teams App Build Tab, Click See all.
+
+28.	Click Cloud Flows – you should have 2 flows listed.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290360-6e36a600-a121-11eb-9cbe-f830679b469d.png)
 
-28.	Click on the First Flow Adoption Bot Share Feedback
-29.	Click Edit
-30.	Open the Flow Action – Post your own adaptive card as the Flow bot to a channel (Preview) action
-31. Change the Team and Channel where you want to Submit feedback escalations to land.  In My Case I created a Team called M365 Champs | Adoption Bot Feedback.  Note:  if using a service account, the service accounts needs to be a member of this Team to show up here.
+28.	Click on the First Flow Adoption Bot Share Feedback.
+
+30.	Click Edit.
+
+32.	Open the Flow Action – Post your own adaptive card as the Flow bot to a channel (Preview) action. 
+
+34. Change the Team and Channel where you want to Submit Feedback escalations to land.  In My Case I created a Team called M365 Champs | Adoption Bot Feedback.  Note:  if using a service account, the service accounts needs to be a member of this Team to show up here.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290484-97573680-a121-11eb-89a5-42dcfc413fc6.png)
 
-32.	Click Save to Save the Flow
-33.	Click Back arrow and now edit the Adoption Bot Ask An Expert:  Edit Flow, Open Post your own adaptive card as the Flow bot to a channel action, change Team and Channel, Click Save
+32.	Click Save to Save the Flow.  
+
+34.	Click Back arrow and now edit the Adoption Bot Ask An Expert:  Edit Flow, Open Post your own adaptive card as the Flow bot to a channel action, change Team and Channel, Click Save.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290562-b2c24180-a121-11eb-9031-00aaccb363dc.png)
 
-**Test the bot in Power Virtual Agents**
+**Test the bot in Power Virtual Agents for Teams**
 
-34. Back in Power Apps for Teams App, Build tab, Click Chatbots in left rail 
+34. Back in Power Apps for Teams App, Build tab, Click Chatbots in left rail.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290917-1e0c1380-a122-11eb-8931-22588d51669c.png)
 
-35. Click on Adoption Bot PVA 2021 which will launch Power Virtual Agents for Teams App
+35. Click on Adoption Bot PVA 2021 which will launch Power Virtual Agents for Teams App.
 
 ![image](https://user-images.githubusercontent.com/54556057/115290977-2ebc8980-a122-11eb-91d2-f49d2fcbdf26.png)
 
@@ -180,15 +188,15 @@ Note:  You can also extract topics from webpages or online files [Extract conten
 
 **Test the Flows for Ask an Expert and Submit feedback**
 
-37. Type Agent in Power Virtual Agents for Teams Test Bot.
+37. Type "Agent" in Power Virtual Agents for Teams Test Bot.
 
-38. Choose Ask An Expert
+38. Choose Ask An Expert.
 
-39. Enter a title for your request
+39. Enter a title for your request.
 
-40. Enter a description for your request
+40. Enter a description for your request.
 
-41. Check the Team and channel you configured in Step 31 and 33 for new Ask An Expert notification 
+41. Check the Team and channel you configured in Step 31 and 33 for new Ask An Expert notification.
 
 ![image](https://user-images.githubusercontent.com/54556057/106078454-73b3bf80-60e1-11eb-9429-19823c2bef69.png)
 
@@ -262,7 +270,7 @@ See this article for additional details:  [Manage app setup policies in Microsof
 
 **Make Adoption Bot your own**
 
-- Rename the Bot to something that malkes sense to your organization.  See Brand Adoption Bot for your organization section above
+- Rename the Bot to something that makes sense to your organization.  See Brand Adoption Bot for your organization section above.
 - Review the included topics and remove or edit as you see fit.
 - Add your own topics.  A best practice is to look at top help desk tickets and craft topics that map to top use questions.
 - Use [Create topics from existing online support content](https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web) to automatically extract topics from your existing support documentation.  
@@ -270,7 +278,7 @@ See this article for additional details:  [Manage app setup policies in Microsof
 
 ## Contributing
 
-Special thanks to contributors Aditya Challapally, Michael Chow, Jong Hoon Moon, Belinda Parker, Erik Olsson and Nidhi Shandilya who helped create and launch this app template.  
+Special thanks to contributors Aditya Challapally, Michael Chow, Jong Hoon Moon, Belinda Parker and Nidhi Shandilya who helped create and launch this app template.  
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
