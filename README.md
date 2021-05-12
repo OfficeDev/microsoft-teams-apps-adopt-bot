@@ -15,8 +15,6 @@ Benefits:
 
 [Adoption Bot QnA Pairs for hosted in 41+ languages](https://adoptbotv2kb.blob.core.windows.net/%24web/adoptbot2021.html)
 
-[Awesome video by Stuart Ridout - Set up an FAQ bot in Microsoft Teams using Power Virtual Agent for Teams](https://www.youtube.com/watch?v=oX1MwSwqm7E)
-
 [If you would rather build the Adoption Bot from scratch, follow this Step by Step guide](https://1drv.ms/w/s!Ah-35FI1EEXFiFGt7DEV164pZQc2?e=dKzMTO)
 
 ## Cost
