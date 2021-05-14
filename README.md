@@ -28,6 +28,7 @@ Free for most Enterprise customers.  Adoption Bot and [Power Virtual Agents app 
 -	Microsoft Teams Team to host the Bot/Dataverse
 -	Microsoft Teams Team for Ask an Expert and Submit Feedback Escalation to land in
 -	Teams Admin rights to upload custom app and set Teams App Setup Policy
+-	IMPORTANT:  This solution uses seeded licensing and does not require Power App licenses. Do not use PVA for Web (powerva.microsoft.com) as it will require you to start a 30 day trial.
 
 ## Deployment Guide
 **Create Teams to host the Dataverse for Teams environment**
