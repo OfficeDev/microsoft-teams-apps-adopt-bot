@@ -15,6 +15,8 @@ Benefits:
 
 [Adoption Bot QnA Pairs for hosted in 41+ languages](https://hickweb.blob.core.windows.net/%24web/AdoptBot/adoptbot2021.html)
 
+[Good deployment video by Szymon Bochniak](https://youtu.be/5QIwMVFaKzs)
+
 [If you would rather build the Adoption Bot from scratch, follow this Step by Step guide](https://1drv.ms/w/s!Ah-35FI1EEXFiFGt7DEV164pZQc2?e=dKzMTO)
 
 ## Cost
