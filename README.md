@@ -19,7 +19,7 @@ Benefits:
 Adoption Bot 2022 is free for most Enterprise customers for use in Teams only.  Adoption Bot 2022 and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
 
 ## Prerequisites
--	Subscription that includes Power Virtual Agents for Teams.  Most plans except GCC, A1, F1 and SUB SKUs
+-	Subscription that includes Power Virtual Agents for Teams.  Most plans except A1, F1 and SUB SKUs
 [Get access to Power Virtual Agents - Power Virtual Agents | Microsoft Docs](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
 -	Access to Power Virtual Agents for Teams App
 -	Microsoft Teams Team to host the Bot/Dataverse and Ask an Expert and Submit Feedback escalations to land in
@@ -34,10 +34,12 @@ Adoption Bot 2022 is free for most Enterprise customers for use in Teams only.  
 4.	It will open the app in **Home** tab and select **Start now**.
 5.	Select the team you want to use, and create an application. When prompted, name the application **Demo** and select **Save**. If this is the first time you are creating an app in the team, it will take a few seconds to setup a Dataverse database before you are prompted to name the application
 
-Next, import the template solution:
+ Next, import the template solution:
 
 1.	In the Power Apps app, select the Build tab to see your list of teams on the side panel.
+
 ![image](https://user-images.githubusercontent.com/54556057/156798088-1acdd0f9-5190-4844-b23e-dd2a5ff07563.png)
+
 2.	Select the team you choose in the previous step from the list. The app you just created will appear in the main section of the window, this may take a few minutes to update.
 3.	Select **See all**.
 ![image](https://user-images.githubusercontent.com/54556057/156798463-dc59554a-4d45-471e-be0b-c6486c9d3317.png)
