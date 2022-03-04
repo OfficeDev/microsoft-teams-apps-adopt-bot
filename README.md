@@ -217,7 +217,7 @@ Optionally, you can give the bot a name that makes sense to your organization.  
 
 ## Contributing
 
-Special thanks to contributors Aditya Challapally, Michael Chow, Jong Hoon Moon, Belinda Parker and Nidhi Shandilya who helped create and launch this app template.  
+Special thanks to contributors Aditya Challapally, Michael Chow, Flow-Joe, Belinda Parker and Nidhi Shandilya who helped create and launch this app template.  
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
