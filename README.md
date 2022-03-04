@@ -94,11 +94,11 @@ We need to update Power Automate Flows, validate the Adoption Bot is working and
 ![image](https://user-images.githubusercontent.com/54556057/156800241-d8c545a9-9f64-488c-86e1-ef6ef57f961b.png)
 
 11. Select **Save**.
-12. Select the back arrow ←.
+12. Select the **back arrow** ←.
 
 13. Select the **Adoption Bot - Feedback flow** to open it. This flow takes employee's feedback and post into a team channel for human expert to review
 14. Select **Edit**.
-15. Open the action Convert time zone - Select Your Timezone and set the destination time zone to your timezone.
+15. Open the action **Convert time zone - Select Your Timezone** and set the destination time zone to your timezone.
  
 ![image](https://user-images.githubusercontent.com/54556057/156801368-8c6784c9-eb96-4198-8e4f-daf9fefc9db4.png)
  
@@ -130,16 +130,16 @@ We need to update Power Automate Flows, validate the Adoption Bot is working and
 
 ![image](https://user-images.githubusercontent.com/54556057/156802269-77bfc8b9-eae4-425e-9d12-c91bde2041d1.png)
 
-8. Select Add to add the bot into Microsoft Teams for yourself
+8. Select **Add** to add the bot into Microsoft Teams for yourself
 
 ![image](https://user-images.githubusercontent.com/54556057/156802374-a8569680-0b2d-404c-95fc-a986cb6e6ded.png)
 
 9. You will now be taken to a chat window with your bot. Here you can try trigger phrases to ensure that the bot is functioning correctly. We have listed several phases you should consider trying below:
 
-i. Hello
-ii. Ask an expert
-iii. What is the status of my request
-iv. Submit feedback
+- Hello
+- Ask an expert
+- What is the status of my request
+- Submit feedback
 
 10. For **Ask an expert** and **Submit feedback**, make sure to check the bot posts request and feedback to the team and channel you configured earlier. *Note that you won't be able to deep link to yourself from the request adaptive card if you are the same person requesting it.*
 
