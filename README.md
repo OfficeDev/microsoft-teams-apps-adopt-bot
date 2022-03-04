@@ -37,7 +37,8 @@ Free for most Enterprise customers for use in Teams only.  Adoption Bot 2022 and
 4.	It will open the app in **Home** tab and select **Start now**.
 5.	Select the team you want to use, and create an application. When prompted, name the application **Demo** and select **Save**. If this is the first time you are creating an app in the team, it will take a few seconds to setup a Dataverse database before you are prompted to name the application
 
-Now, import the template solution:
+Next, import the template solution:
+
 1.	In the Power Apps app, select the Build tab to see your list of teams on the side panel.
 ![image](https://user-images.githubusercontent.com/54556057/156798088-1acdd0f9-5190-4844-b23e-dd2a5ff07563.png)
 2.	Select the team you choose in the previous step from the list. The app you just created will appear in the main section of the window, this may take a few minutes to update.
@@ -57,14 +58,14 @@ You have now imported the solution and your can go to the Build tab in Power App
 
 We need to update Power Automate Flows, validate the Adoption Bot is working and add our Adoption Bot Admin application to a teams channel. Once this section is completed, the Adoption Bot bot's escalation flow will be up and running and ready to be added with your organization's content.
 
-Setting up Power Automate flows
+**Setting up Power Automate flows**
+
 1.	In the Power Apps app, select the **Build** tab to see your list of teams on the side panel.
 ![image](https://user-images.githubusercontent.com/54556057/156798088-1acdd0f9-5190-4844-b23e-dd2a5ff07563.png)
 2.	Select the team you choose in the previous step from the list, then select See all to view the solution overview.
 ![image](https://user-images.githubusercontent.com/54556057/156799403-c5d38a2f-7c1b-4d25-b69c-407157fe9429.png)
 3.	Select **Cloud flows** on the side panel.
 ![image](https://user-images.githubusercontent.com/54556057/156799497-0fa14bef-096d-4e54-ac65-7a537621163d.png)
-
 4.	Select the **Adoption Bot – Ask an Expert** flow to open it. This flow takes employee's escalation request and notify human expert in a team channel.
  i.	Select **Edit**
  ii.	Open the action **Convert time zone - Select Your Timezone** and set the **destination time zone** to your timezone.
@@ -77,7 +78,6 @@ Setting up Power Automate flows
  ![Picture9](https://user-images.githubusercontent.com/54556057/156800241-d8c545a9-9f64-488c-86e1-ef6ef57f961b.png)
  vii.	Select **Save**.
  viii. Select the back arrow ←.
-
 5. 5.	Select the **Adoption Bot - Feedback flow** to open it. This flow takes employee's feedback and post into a team channel for human expert to review
  i. Select **Edit**.
  ii	Open the action Convert time zone - Select Your Timezone and set the destination time zone to your timezone.
@@ -88,6 +88,7 @@ Setting up Power Automate flows
  v.	Select Save.
  
 **Bot Validation**
+
 1.	Open the **Power Virtual Agents** Teams application.
 2.	Select Chatbots.
 ![image](https://user-images.githubusercontent.com/54556057/156801903-70bd7d6a-28b9-496c-81de-a0f72d60d286.png)
@@ -109,84 +110,51 @@ Setting up Power Automate flows
 10.	For **Ask an expert** and **Submit feedback**, make sure to check the bot posts request and feedback to the team and channel you configured earlier. *Note that you won't be able to deep link to yourself from the request adaptive card if you are the same person requesting it.*
 
 **Set up Power App Teams tab**
-You can review the bot's performance in Power Virtual Agents built-in analytics dashboard. In addition to the dashboard, Adoption Bot also comes with a Canvas app to allow experts to review the verbal feedback from employees.
-1.	Open the Power Apps for Teams app Build Tab.
-2.	Select your team
+You can review the bot's performance in [Power Virtual Agents built-in analytics dashboard](https://docs.microsoft.com/en-us/power-virtual-agents/analytics-sessions#:~:text=Analyze%20session%20information%20in%20Power%20Virtual%20Agents%201,the%20default%20period%20of%20session%20transcript%20retention.%20). In addition to the dashboard, Adoption Bot also comes with a Canvas app to allow experts to review the verbal feedback from employees.
 
- 
+1.	Open the **Power Apps for Teams** app **Build** Tab.
+2.	Select your team
+3.	Select See All.
+![image](https://user-images.githubusercontent.com/54556057/156798463-dc59554a-4d45-471e-be0b-c6486c9d3317.png)
+4.	Select the three dots next to the **Adoption Bot Admin App** (...).
+5.	Select **Edit**.
+![image](https://user-images.githubusercontent.com/54556057/156804546-29e1714c-c428-47bd-bfd2-de0400ddfbd0.png)
+6.	Select **Publish to Teams** on the upper right.
+![image](https://user-images.githubusercontent.com/54556057/156804815-7e5f8ad7-e891-45df-852d-81ba9a1b4e28.png)
+7.	Select **Next**.
+![image](https://user-images.githubusercontent.com/54556057/156805107-0361f8bb-ecf5-4442-a991-079a468532c2.png)
+8.	Select your team.
+![image](https://user-images.githubusercontent.com/54556057/156805271-db4f7cfa-a340-40d2-827c-497cffa3a9b8.png)
+9.	Select **+ Add app as a Tab**.
+![image](https://user-images.githubusercontent.com/54556057/156805424-ad99438d-a481-4e00-9b4b-753a44ea7aa8.png)
+10.	Select **Save and close**.
+11.	Open your team
+12.	Select the Adoption Bot Admin tab
+![image](https://user-images.githubusercontent.com/54556057/156805664-e30c348e-0b6d-43de-9405-049cf62ad75e.png)
+13.	Once selected you will see the Adoption Bot Admin Canvas App. You will be able to view requests and feedback.
+![image](https://user-images.githubusercontent.com/54556057/156805832-0fe1f23d-72e3-423c-8d09-69ee09aff4ad.png)
+
+**Next steps**
+You have now fully set up the Adoption Bot template. The next step is to go to Power Virtual Agents Teams application to add FAQ content for the bot to answer your organization's questions. [Extension documentation](https://github.com/Flow-Joe/PowerVirtualAgentsSamples/blob/master/Templates/Employee%20FAQ/EXTEND.md)
+
+**Adding bot content in Power Virtual Agents**
+The Adoption Bot template can easily be extended in [Power Virtual Agents Teams](https://teams.microsoft.com/l/app/1850b8bb-76ac-411c-9637-08f7d1812d35?source=store-copy-link) application by adding new [topics, messages, questions, actions](https://docs.microsoft.com/en-us/power-virtual-agents/teams/authoring-create-edit-topics-teams#create-a-topic) and more.
+
+As a starting point, we suggest looking at the greeting system topic, customizing it to provide a personal greeting that represents your company and how you want your users to start using the bot. Yyou can freely edit the topics or simply create new topics to handle any additional areas you wish to include. You can also quickly and easily add new topics with the built-in [topic suggestion feature](https://docs.microsoft.com/power-virtual-agents/teams/advanced-create-topics-from-web-teams).
+
+Reach out to the Github Repro here or the [PVA Community](https://powerusers.microsoft.com/t5/Power-Virtual-Agents-Community/ct-p/PVACommunity) for help and ideas from our community members.
+
+**Making the bot available to employees**
+
+Once you are satisfied with the bot's content, it's time to make it available to employees. You can easily make the bot available in Microsoft Teams app store by following the steps to [share the bot with your organization](https://docs.microsoft.com/en-us/power-virtual-agents/teams/publication-add-bot-to-microsoft-teams-teams#share-the-bot-with-your-organization). We recommend to partner with your IT admin to also pre-pin the bot on the left rail so employees can easily discover the bot in Microsoft Teams without needing to manually install it. Learn more about best practice guidance to [partner with admin to roll out bot in Microsoft Teams](https://powervirtualagents.microsoft.com/blog/partner-with-admin-to-roll-out-bot-in-microsoft-teams/).
+
+Alternatively, you can also directly [share the bot's installation link](https://docs.microsoft.com/power-virtual-agents/teams/publication-add-bot-to-microsoft-teams-teams#install-a-bot-as-an-app-in-microsoft-teams) with others in the organization without going through the admin approval process. Make sure you change the bot's [access](https://docs.microsoft.com/power-virtual-agents/teams/configuration-security-teams) to fit your target audience so they have permission to install the bot.
+
 **Brand Adoption Bot for your organization**
 
 Optionally, you can give the bot a name that makes sense to your organization.  To change the Bot name and icon, click Manage and Details.  Click save at the top.
 
 ![image](https://user-images.githubusercontent.com/54556057/114073509-5afa1f80-9871-11eb-8997-de72c77f768f.png)
-
-**Publish the bot to your end users**
-
-Now that you have tried out the bot and is satisfied with its content, it’s time to make it available to your employees.   
-
-43. Go to Publish from the left navigation panel.  Select the Publish button and proceed with the confirmation dialog to make the bot content live. 
-
-![image](https://user-images.githubusercontent.com/54556057/106008755-9f08c100-6085-11eb-94d3-cc53e7d3aeda.png)
-
-44. Select Share the bot and select Turn on Teams so end users can chat with the bot in Microsoft Teams. 
-
-![image](https://user-images.githubusercontent.com/54556057/106008804-acbe4680-6085-11eb-8d8d-ab0f20e11c42.png)
-
-45. Select Submit for admin approval on the panel. 
-
-![image](https://user-images.githubusercontent.com/54556057/106008845-bb0c6280-6085-11eb-9ea9-f16c770a4784.png)
-
-46. Select Download manifest and provide the description and other information relevant to your bot. 
-
-![image](https://user-images.githubusercontent.com/54556057/106008919-cbbcd880-6085-11eb-99c1-9a37e6f22c8c.png)
- 
-47. Once you have downloaded the Teams app manifest for your bot, extract the teamsApp.zip file on your computer and edit the manifest.json file. 
-
-48. Replace AppID with 6c8c0828-bd30-4c89-900b-5656ac58683c and save the manifest.json
-
-49. Rezip the 3 files (Manifest and two icons)
-
-**Upload the bot to your tenant app store**
-
-When you publish a custom Teams app, it's available to users in your organization's app store.
-
-Note:  adding Apps to your tenant requires upload custom apps to be enabled in policy.  See this article for details [Publish a custom app by uploading an app package](https://docs.microsoft.com/en-us/microsoftteams/upload-custom-apps)
-
-50. Launch Microsoft Teams admin center.
-
-51. In the left navigation of the Microsoft Teams admin center, go to Teams apps > Manage apps.
-
-52. Click Upload, click Select the zip file you edited in the prior step.
-
-![image](https://user-images.githubusercontent.com/54556057/106159851-3b4cc980-6153-11eb-8edb-2c2019cdd347.png)
-
-**Pin and install the app for users to discover**
-
-By default, for users to find the app they have to go to your organization's app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. 
-
-53. In the left navigation of the Microsoft Teams admin center, go to Teams apps > Setup policies.
-
-54. Select the policy by clicking to the left of the policy name, and then select Edit.
-
-55. Under Pinned apps, select Add apps.
-
-56. In the Add pinned apps pane, search for the apps you want to add, and then select Add. You can also filter apps by app permission policy. When you've chosen your list of apps to pin, select Add.
-
-![image](https://user-images.githubusercontent.com/54556057/106160982-6c79c980-6154-11eb-82ea-6969a2c6e84d.png)
-
-57. Arrange the apps in the order that you want them to appear in Teams, and then select Save.
-
-![image](https://user-images.githubusercontent.com/54556057/106161093-8adfc500-6154-11eb-9e80-895e3b574c84.png)
-
-See this article for additional details:  [Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies)
-
-**Make Adoption Bot your own**
-
-- Rename the Bot to something that makes sense to your organization.  See Brand Adoption Bot for your organization section above.
-- Review the included topics and remove or edit as you see fit.
-- Add your own topics.  A best practice is to look at top help desk tickets and craft topics that map to top use questions.
-- Use [Create topics from existing online support content](https://docs.microsoft.com/en-us/power-virtual-agents/advanced-create-topics-from-web) to automatically extract topics from your existing support documentation.  
-
 
 ## Contributing
 
