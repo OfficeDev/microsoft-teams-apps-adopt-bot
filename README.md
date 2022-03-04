@@ -52,7 +52,9 @@ Adoption Bot 2022 is free for most Enterprise customers for use in Teams only.  
 5.	Select the template solution you downloaded, and then **Next**.
 6.	When you see the items to choose to import, make sure everything is selected and click **Next**.
 7.	If you have connections, select them, if you do not then add them. You will need to add Microsoft Teams, Office and Dataverse connection.
+
 ![Image](https://user-images.githubusercontent.com/54556057/156798983-3f0fdc09-9a1d-4c48-8ce9-7f5ff7d5fd40.png)
+
 8.	Select **Import**.
 
 You have now imported the solution and your can go to the Build tab in Power Apps to see all of your items. To use the bot, you will need to go through some additional set up steps.
@@ -63,84 +65,130 @@ We need to update Power Automate Flows, validate the Adoption Bot is working and
 
 **Setting up Power Automate flows**
 
-1.	In the Power Apps app, select the **Build** tab to see your list of teams on the side panel.
+1. In the Power Apps app, select the **Build** tab to see your list of teams on the side panel.
+
 ![image](https://user-images.githubusercontent.com/54556057/156798088-1acdd0f9-5190-4844-b23e-dd2a5ff07563.png)
-2.	Select the team you choose in the previous step from the list, then select See all to view the solution overview.
+
+2. Select the team you choose in the previous step from the list, then select See all to view the solution overview.
+
 ![image](https://user-images.githubusercontent.com/54556057/156799403-c5d38a2f-7c1b-4d25-b69c-407157fe9429.png)
-3.	Select **Cloud flows** on the side panel.
+
+3. Select **Cloud flows** on the side panel.
+
 ![image](https://user-images.githubusercontent.com/54556057/156799497-0fa14bef-096d-4e54-ac65-7a537621163d.png)
-4.	Select the **Adoption Bot – Ask an Expert** flow to open it. This flow takes employee's escalation request and notify human expert in a team channel.
- i.	Select **Edit**
- ii.	Open the action **Convert time zone - Select Your Timezone** and set the **destination time zone** to your timezone.
- ![image](https://user-images.githubusercontent.com/54556057/156799812-19300ede-867d-4406-9bb3-5213fa852569.png)
- iii. Open the action Post adaptive card in a chat or channel - Select Team and Channel.
- iv. Change the **Team** and **Channel** to your desired team and channel for the feedback information adaptive card to be posted to.
- ![image](https://user-images.githubusercontent.com/54556057/156799996-734ccd10-7268-4998-9b86-bf2e76144fc5.png)
- v. Expand the condition action.
- vi. Open the action **Convert time zone - Select Your Timezone** - **Resolved** and set the **destination time zone** to your timezone.
- ![Picture9](https://user-images.githubusercontent.com/54556057/156800241-d8c545a9-9f64-488c-86e1-ef6ef57f961b.png)
- vii.	Select **Save**.
- viii. Select the back arrow ←.
-5. 5.	Select the **Adoption Bot - Feedback flow** to open it. This flow takes employee's feedback and post into a team channel for human expert to review
- i. Select **Edit**.
- ii	Open the action Convert time zone - Select Your Timezone and set the destination time zone to your timezone.
- ![image](https://user-images.githubusercontent.com/54556057/156801368-8c6784c9-eb96-4198-8e4f-daf9fefc9db4.png)
- iii.	Open the action **Post adaptive card in a chat or channel - Select Team and Channel**.
- iv.	Change the **Team** and **Channel** to your desired team and channel for the feedback information adaptive card to be posted to.
- ![image](https://user-images.githubusercontent.com/54556057/156801607-8d98f7be-11aa-4869-a6ca-39c1adaa5405.png)
- v.	Select Save.
+
+4. Select the **Adoption Bot – Ask an Expert** flow to open it. This flow takes employee's escalation request and notify human expert in a team channel.
+i. Select **Edit**
+ii. Open the action **Convert time zone - Select Your Timezone** and set the **destination time zone** to your timezone.
+
+![image](https://user-images.githubusercontent.com/54556057/156799812-19300ede-867d-4406-9bb3-5213fa852569.png)
+
+iii. Open the action Post adaptive card in a chat or channel - Select Team and Channel.
+iv. Change the **Team** and **Channel** to your desired team and channel for the feedback information adaptive card to be posted to.
+
+![image](https://user-images.githubusercontent.com/54556057/156799996-734ccd10-7268-4998-9b86-bf2e76144fc5.png)
+
+v. Expand the condition action.
+vi. Open the action **Convert time zone - Select Your Timezone** - **Resolved** and set the **destination time zone** to your timezone.
+
+![image](https://user-images.githubusercontent.com/54556057/156800241-d8c545a9-9f64-488c-86e1-ef6ef57f961b.png)
+
+vii. Select **Save**.
+viii. Select the back arrow ←.
+
+5. Select the **Adoption Bot - Feedback flow** to open it. This flow takes employee's feedback and post into a team channel for human expert to review
+i. Select **Edit**.
+ii	Open the action Convert time zone - Select Your Timezone and set the destination time zone to your timezone.
+ 
+![image](https://user-images.githubusercontent.com/54556057/156801368-8c6784c9-eb96-4198-8e4f-daf9fefc9db4.png)
+ 
+iii. Open the action **Post adaptive card in a chat or channel - Select Team and Channel**.
+iv. Change the **Team** and **Channel** to your desired team and channel for the feedback information adaptive card to be posted to.
+
+![image](https://user-images.githubusercontent.com/54556057/156801607-8d98f7be-11aa-4869-a6ca-39c1adaa5405.png)
+
+v. Select Save.
  
 **Bot Validation**
 
-1.	Open the **Power Virtual Agents** Teams application.
-2.	Select Chatbots.
+1. Open the **Power Virtual Agents** Teams application.
+2. Select Chatbots.
+
 ![image](https://user-images.githubusercontent.com/54556057/156801903-70bd7d6a-28b9-496c-81de-a0f72d60d286.png)
-3.	Select your team.
-4.	Select your chat bot.
-5.	Select Publish on the left menu.
+
+3. Select your team.
+4. Select your chat bot.
+5. Select Publish on the left menu.
+
 ![image](https://user-images.githubusercontent.com/54556057/156802040-b1eea660-067e-4405-98da-60768fed9ca7.png)
-6.	Select **Turn on Teams**.
+
+6. Select **Turn on Teams**.
+
 ![image](https://user-images.githubusercontent.com/54556057/156802106-f19c5829-5b91-44a8-9d7a-b454c541f62c.png)
-7.	Select **Open the bot**.
+
+7. Select **Open the bot**.
+
 ![image](https://user-images.githubusercontent.com/54556057/156802269-77bfc8b9-eae4-425e-9d12-c91bde2041d1.png)
-8.	Select Add to add the bot into Microsoft Teams for yourself
+
+8. Select Add to add the bot into Microsoft Teams for yourself
+
 ![image](https://user-images.githubusercontent.com/54556057/156802374-a8569680-0b2d-404c-95fc-a986cb6e6ded.png)
-9.	You will now be taken to a chat window with your bot. Here you can try trigger phrases to ensure that the bot is functioning correctly. We have listed several phases you should consider trying below:
- i.	Hello
- ii.	Ask an expert
- iii.	What is the status of my request
- iv.	Submit feedback
-10.	For **Ask an expert** and **Submit feedback**, make sure to check the bot posts request and feedback to the team and channel you configured earlier. *Note that you won't be able to deep link to yourself from the request adaptive card if you are the same person requesting it.*
+
+9. You will now be taken to a chat window with your bot. Here you can try trigger phrases to ensure that the bot is functioning correctly. We have listed several phases you should consider trying below:
+
+i. Hello
+ii. Ask an expert
+iii. What is the status of my request
+iv. Submit feedback
+
+10. For **Ask an expert** and **Submit feedback**, make sure to check the bot posts request and feedback to the team and channel you configured earlier. *Note that you won't be able to deep link to yourself from the request adaptive card if you are the same person requesting it.*
 
 **Set up Power App Teams tab**
 You can review the bot's performance in [Power Virtual Agents built-in analytics dashboard](https://docs.microsoft.com/en-us/power-virtual-agents/analytics-sessions#:~:text=Analyze%20session%20information%20in%20Power%20Virtual%20Agents%201,the%20default%20period%20of%20session%20transcript%20retention.%20). In addition to the dashboard, Adoption Bot also comes with a Canvas app to allow experts to review the verbal feedback from employees.
 
-1.	Open the **Power Apps for Teams** app **Build** Tab.
-2.	Select your team
-3.	Select See All.
+1. Open the **Power Apps for Teams** app **Build** Tab.
+2. Select your team
+3. Select See All.
+
 ![image](https://user-images.githubusercontent.com/54556057/156798463-dc59554a-4d45-471e-be0b-c6486c9d3317.png)
-4.	Select the three dots next to the **Adoption Bot Admin App** (...).
-5.	Select **Edit**.
+
+4. Select the three dots next to the **Adoption Bot Admin App** (...).
+5. Select **Edit**.
+
 ![image](https://user-images.githubusercontent.com/54556057/156804546-29e1714c-c428-47bd-bfd2-de0400ddfbd0.png)
-6.	Select **Publish to Teams** on the upper right.
+
+6. Select **Publish to Teams** on the upper right.
+
 ![image](https://user-images.githubusercontent.com/54556057/156804815-7e5f8ad7-e891-45df-852d-81ba9a1b4e28.png)
-7.	Select **Next**.
+
+7. Select **Next**.
+
 ![image](https://user-images.githubusercontent.com/54556057/156805107-0361f8bb-ecf5-4442-a991-079a468532c2.png)
-8.	Select your team.
+
+8. Select your team.
+
 ![image](https://user-images.githubusercontent.com/54556057/156805271-db4f7cfa-a340-40d2-827c-497cffa3a9b8.png)
-9.	Select **+ Add app as a Tab**.
+
+9. Select **+ Add app as a Tab**.
+
 ![image](https://user-images.githubusercontent.com/54556057/156805424-ad99438d-a481-4e00-9b4b-753a44ea7aa8.png)
-10.	Select **Save and close**.
-11.	Open your team
-12.	Select the Adoption Bot Admin tab
+
+10. Select **Save and close**.
+11. Open your team
+12. Select the Adoption Bot Admin tab
+
 ![image](https://user-images.githubusercontent.com/54556057/156805664-e30c348e-0b6d-43de-9405-049cf62ad75e.png)
-13.	Once selected you will see the Adoption Bot Admin Canvas App. You will be able to view requests and feedback.
+
+13. Once selected you will see the Adoption Bot Admin Canvas App. You will be able to view requests and feedback.
+
 ![image](https://user-images.githubusercontent.com/54556057/156805832-0fe1f23d-72e3-423c-8d09-69ee09aff4ad.png)
 
 **Next steps**
+
 You have now fully set up the Adoption Bot template. The next step is to go to Power Virtual Agents Teams application to add FAQ content for the bot to answer your organization's questions. [Extension documentation](https://github.com/Flow-Joe/PowerVirtualAgentsSamples/blob/master/Templates/Employee%20FAQ/EXTEND.md)
 
 **Adding bot content in Power Virtual Agents**
+
 The Adoption Bot template can easily be extended in [Power Virtual Agents Teams](https://teams.microsoft.com/l/app/1850b8bb-76ac-411c-9637-08f7d1812d35?source=store-copy-link) application by adding new [topics, messages, questions, actions](https://docs.microsoft.com/en-us/power-virtual-agents/teams/authoring-create-edit-topics-teams#create-a-topic) and more.
 
 As a starting point, we suggest looking at the greeting system topic, customizing it to provide a personal greeting that represents your company and how you want your users to start using the bot. Yyou can freely edit the topics or simply create new topics to handle any additional areas you wish to include. You can also quickly and easily add new topics with the built-in [topic suggestion feature](https://docs.microsoft.com/power-virtual-agents/teams/advanced-create-topics-from-web-teams).
