@@ -16,17 +16,14 @@ Benefits:
 *Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
 ## Cost
-Free for most Enterprise customers for use in Teams only.  Adoption Bot 2022 and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
+Adoption Bot 2022 is free for most Enterprise customers for use in Teams only.  Adoption Bot 2022 and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
 
 ## Prerequisites
--	Subscription that includes Power Virtual Agents for Teams.  Most plans except GCC, A1 and SUB SKUs
+-	Subscription that includes Power Virtual Agents for Teams.  Most plans except GCC, A1, F1 and SUB SKUs
 [Get access to Power Virtual Agents - Power Virtual Agents | Microsoft Docs](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
--	Power Virtual Agents for Teams App (Important: dont use Power Virtual Agents web app as you will have to start Power Apps Trial)
--	Microsoft Teams Team to host the Bot/Dataverse
--	Microsoft Teams Team for Ask an Expert and Submit Feedback Escalation to land in
--	Teams Admin rights to upload custom app and set Teams App Setup Policy
+-	Access to Power Virtual Agents for Teams App
+-	Microsoft Teams Team to host the Bot/Dataverse and Ask an Expert and Submit Feedback escalations to land in
 -	Required network access to PVA service endpoints listed [here](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-quotas#required-services)
--	IMPORTANT:  This solution uses seeded licensing and does not require Power App licenses. Do not use PVA for Web (powerva.microsoft.com) as it will require you to start a 30 day trial.
 
 ## Deployment Guide
 **First, add the required apps to Teams, and create your Power Apps app:**
