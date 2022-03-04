@@ -34,7 +34,7 @@ Adoption Bot 2022 is free for most Enterprise customers for use in Teams only.  
 4.	It will open the app in **Home** tab and select **Start now**.
 5.	Select the team you want to use, and create an application. When prompted, name the application **Demo** and select **Save**. If this is the first time you are creating an app in the team, it will take a few seconds to setup a Dataverse database before you are prompted to name the application
 
- Next, import the template solution:
+**Next, import the template solution:**
 
 1.	In the Power Apps app, select the Build tab to see your list of teams on the side panel.
 
@@ -42,9 +42,13 @@ Adoption Bot 2022 is free for most Enterprise customers for use in Teams only.  
 
 2.	Select the team you choose in the previous step from the list. The app you just created will appear in the main section of the window, this may take a few minutes to update.
 3.	Select **See all**.
+
 ![image](https://user-images.githubusercontent.com/54556057/156798463-dc59554a-4d45-471e-be0b-c6486c9d3317.png)
+
 4.	On the top menu bar, select Import, then select Browse in the pane that appears.
+	
 ![Image](https://user-images.githubusercontent.com/54556057/156798748-2f3b392e-f323-4078-86f0-7148b0f19dad.png)
+
 5.	Select the template solution you downloaded, and then **Next**.
 6.	When you see the items to choose to import, make sure everything is selected and click **Next**.
 7.	If you have connections, select them, if you do not then add them. You will need to add Microsoft Teams, Office and Dataverse connection.
