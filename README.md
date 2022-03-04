@@ -1,34 +1,34 @@
 # Adoption Bot 2022
 
-Adoption Bot is a user care Chat Bot built with Power Virtual Agents for Microsoft Teams (PVA) and the [Employee FAQ Template](https://github.com/Flow-Joe/PowerVirtualAgentsSamples/tree/master/Templates/Employee%20FAQ). Out of the box, Adoption Bot answers 100+ common questions about Microsoft Teams and Microsoft 365.  You can edit the included topics, add your own topics, or ingest your existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or even be extended to open service tickets with Premium Power Automate connectors.
+Adoption Bot is a user care Chat Bot built with [Power Virtual Agents for Microsoft Teams (PVA)](https://docs.microsoft.com/en-us/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams) and the [Employee FAQ Template](https://github.com/Flow-Joe/PowerVirtualAgentsSamples/tree/master/Templates/Employee%20FAQ). Out of the box, Adoption Bot answers 100+ common questions about Microsoft Teams and Microsoft 365.  You can edit the included topics, add your own topics, or ingest your existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or be extended to open service tickets in ITSM with Premium Power Automate connectors.
 
 New with Adoption Bot 2022:
-- updated QnA pairs in English
-- Dataverse for Teams stores Ask an Expert request status and capptures resolved requests
+- 103 updated QnA pairs in English
+- Dataverse for Teams stores Ask an Expert request status and captures resolved requests
 - Status Flow - users can check the status of their requests 
-- Adoption Bot app to allow experts to review request status and feedback from users
+- Adoption Bot Canvas app to allow experts to review request status and feedback from users
 
 Benefits:
 - No code Bots have quick time to value and net quick win for M365 project team
 - Capabilities available in the [Power Virtual Agents app in Microsoft Teams are available as part of select Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
-- Drive down support costs with fewer service desk tickets*
+- Bots can drive down support costs with fewer service desk tickets*
 
 *Use of bots to handle employee questions reduces the number of IT and HR support tickets by 10% to 15%.  Source: Forrester Consulting Total Economic Impact™ Of using Microsoft Teams as a platform and Teams with Power Platform
 
 ## Cost
-Adoption Bot 2022 is free for most Enterprise customers for use in Teams only.  Adoption Bot 2022 and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
+Adoption Bot 2022 is free for most Enterprise customers for use in Teams.  Adoption Bot 2022 and [Power Virtual Agents app in Microsoft Teams are available as part of most Microsoft 365 subscriptions](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions) and use standard connectors.  
 
 ## Prerequisites
--	Subscription that includes Power Virtual Agents for Teams.  Most plans except A1, F1 and SUB SKUs
-[Get access to Power Virtual Agents - Power Virtual Agents | Microsoft Docs](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)
--	Access to Power Virtual Agents for Teams App
--	Microsoft Teams Team to host the Bot/Dataverse and Ask an Expert and Submit Feedback escalations to land in
+-	Subscription that includes Power Virtual Agents for Teams.  Most plans except A1, F1 and SUB SKUs.  *note for full details see
+[Get access to Power Virtual Agents - Power Virtual Agents | Microsoft Docs](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions)*
+-	Access to Power Virtual Agents for Teams App to deploy and customize the Bot
+-	Microsoft Teams Team to host the Bot/Dataverse and Ask an Expert and Submit Feedback escalations to land *(Team Owner)*
 -	Required network access to PVA service endpoints listed [here](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-quotas#required-services)
 
 ## Deployment Guide
 **First, add the required apps to Teams, and create your Power Apps app:**
 
-1.	Download the Adoption Bot 2022 solution.
+1.	Download the [Adoption Bot 2022 solution](https://github.com/OfficeDev/microsoft-teams-apps-adopt-bot/blob/main/Adoption%20Bot%202022.zip) Zip file.
 2.	Add the [Power Virtual Agents app in Microsoft Teams](https://teams.microsoft.com/l/app/1850b8bb-76ac-411c-9637-08f7d1812d35?source=store-copy-link), you can search for it directly in Microsoft Teams app store.
 3.	Add the [Power Apps app in Microsoft Teams](https://teams.microsoft.com/l/app/a6b63365-31a4-4f43-92ec-710b71557af9?source=store-copy-link), and open it.
 4.	It will open the app in **Home** tab and select **Start now**.
@@ -78,36 +78,36 @@ We need to update Power Automate Flows, validate the Adoption Bot is working and
 ![image](https://user-images.githubusercontent.com/54556057/156799497-0fa14bef-096d-4e54-ac65-7a537621163d.png)
 
 4. Select the **Adoption Bot – Ask an Expert** flow to open it. This flow takes employee's escalation request and notify human expert in a team channel.
-i. Select **Edit**
-ii. Open the action **Convert time zone - Select Your Timezone** and set the **destination time zone** to your timezone.
+5. Select **Edit**
+6. Open the action **Convert time zone - Select Your Timezone** and set the **destination time zone** to your timezone.
 
 ![image](https://user-images.githubusercontent.com/54556057/156799812-19300ede-867d-4406-9bb3-5213fa852569.png)
 
-iii. Open the action Post adaptive card in a chat or channel - Select Team and Channel.
-iv. Change the **Team** and **Channel** to your desired team and channel for the feedback information adaptive card to be posted to.
+7. Open the action Post adaptive card in a chat or channel - Select Team and Channel.
+8. Change the **Team** and **Channel** to your desired team and channel for the feedback information adaptive card to be posted to.
 
 ![image](https://user-images.githubusercontent.com/54556057/156799996-734ccd10-7268-4998-9b86-bf2e76144fc5.png)
 
-v. Expand the condition action.
-vi. Open the action **Convert time zone - Select Your Timezone** - **Resolved** and set the **destination time zone** to your timezone.
+9. Expand the condition action.
+10. Open the action **Convert time zone - Select Your Timezone** - **Resolved** and set the **destination time zone** to your timezone.
 
 ![image](https://user-images.githubusercontent.com/54556057/156800241-d8c545a9-9f64-488c-86e1-ef6ef57f961b.png)
 
-vii. Select **Save**.
-viii. Select the back arrow ←.
+11. Select **Save**.
+12. Select the back arrow ←.
 
-5. Select the **Adoption Bot - Feedback flow** to open it. This flow takes employee's feedback and post into a team channel for human expert to review
-i. Select **Edit**.
-ii	Open the action Convert time zone - Select Your Timezone and set the destination time zone to your timezone.
+13. Select the **Adoption Bot - Feedback flow** to open it. This flow takes employee's feedback and post into a team channel for human expert to review
+14. Select **Edit**.
+15. Open the action Convert time zone - Select Your Timezone and set the destination time zone to your timezone.
  
 ![image](https://user-images.githubusercontent.com/54556057/156801368-8c6784c9-eb96-4198-8e4f-daf9fefc9db4.png)
  
-iii. Open the action **Post adaptive card in a chat or channel - Select Team and Channel**.
-iv. Change the **Team** and **Channel** to your desired team and channel for the feedback information adaptive card to be posted to.
+16. Open the action **Post adaptive card in a chat or channel - Select Team and Channel**.
+17. Change the **Team** and **Channel** to your desired team and channel for the feedback information adaptive card to be posted to.
 
 ![image](https://user-images.githubusercontent.com/54556057/156801607-8d98f7be-11aa-4869-a6ca-39c1adaa5405.png)
 
-v. Select Save.
+18. Select Save.
  
 **Bot Validation**
 
