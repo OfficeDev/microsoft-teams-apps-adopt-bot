@@ -3,10 +3,11 @@
 Adoption Bot is a user care Chat Bot built with [Power Virtual Agents for Microsoft Teams (PVA)](https://docs.microsoft.com/en-us/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams) and the [Employee FAQ Template](https://github.com/Flow-Joe/PowerVirtualAgentsSamples/tree/master/Templates/Employee%20FAQ). Out of the box, Adoption Bot answers 100+ common questions about Microsoft Teams and Microsoft 365.  You can edit the included topics, add your own topics, or ingest your existing FAQs.  If users need additional help, Adoption Bot can connect them to experts or be extended to open service tickets in ITSM with Premium Power Automate connectors.
 
 New with Adoption Bot 2022:
-- 103 updated QnA pairs in English
+- Numerous improvements forked from Employee FAQ Bot Template
 - Dataverse for Teams stores Ask an Expert request status and captures resolved requests
-- Status Flow - users can check the status of their requests 
+- Status Flow for users to check the status of their requests 
 - Adoption Bot Canvas app to allow experts to review request status and feedback from users
+- 103 updated Teams and M365 QnA pairs in English
 
 Benefits:
 - No code Bots have quick time to value and net quick win for M365 project team
