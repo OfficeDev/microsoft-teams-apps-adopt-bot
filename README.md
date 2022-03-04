@@ -31,7 +31,7 @@ Adoption Bot 2022 is free for most Enterprise customers for use in Teams.  Adopt
 1.	Download the [Adoption Bot 2022 solution](https://github.com/OfficeDev/microsoft-teams-apps-adopt-bot/blob/main/Adoption%20Bot%202022.zip) Zip file.
 2.	Add the [Power Apps app in Microsoft Teams](https://teams.microsoft.com/l/app/a6b63365-31a4-4f43-92ec-710b71557af9?source=store-copy-link), and open it.
 3.	It will open the app in **Home** tab and select **Start now**.
-4.	Select the team you want to use, and create an application. When prompted, name the application **Demo** and select **Save**. If this is the first time you are creating an app in the team, it will take a few seconds to setup a Dataverse database before you are prompted to name the application
+4.	Select the team you want to use, and **Create** an application. If this is the first time you are creating an app in the team, it will take a few seconds to setup a Dataverse database before you are prompted to name the application.  When prompted, name the application **Demo** and select **Save**.D
 
 **Next, import the template solution:**
 
@@ -44,13 +44,16 @@ Adoption Bot 2022 is free for most Enterprise customers for use in Teams.  Adopt
 
 ![image](https://user-images.githubusercontent.com/54556057/156798463-dc59554a-4d45-471e-be0b-c6486c9d3317.png)
 
-4.	On the top menu bar, select Import, then select Browse in the pane that appears.
+4.	On the top menu bar, select **Import**, then select **Browse** in the pane that appears.
 	
 ![Image](https://user-images.githubusercontent.com/54556057/156798748-2f3b392e-f323-4078-86f0-7148b0f19dad.png)
 
 5.	Select the template solution you downloaded, and then **Next**.
 6.	When you see the items to choose to import, make sure everything is selected and click **Next**.
-7.	If you have connections, select them, if you do not then add them. You will need to add Microsoft Teams, Office and Dataverse connection.
+
+![image](https://user-images.githubusercontent.com/54556057/156818633-e1cd3c74-2b3b-4c4b-9e95-6047fa661c6b.png)
+
+8.	If you have connections, select them, if you do not, then add them. You will need to add Microsoft Teams, Office and Dataverse connection.
 
 ![Image](https://user-images.githubusercontent.com/54556057/156798983-3f0fdc09-9a1d-4c48-8ce9-7f5ff7d5fd40.png)
 
